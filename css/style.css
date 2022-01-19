@@ -1,10 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/viner-hand-itc');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@font-face { font-family: Brightness; src: url('../fonts/Brightness.ttf'); } 
-@font-face { font-family: DarkMage; src: url('../fonts/Dark\ Mage.ttf'); } 
-@font-face { font-family: EarwigFactory; src: url('../fonts/earwig\ factory\ rg.ttf'); } 
-@font-face { font-family: MagnificentSerif; src: url('../fonts/Magnificent\ Serif.ttf'); } 
-
 html {
     scroll-behavior: smooth;
 }
@@ -22,11 +15,8 @@ body {
 }
 
 .title {
-    font-size: 15em;
     text-align: center;
-    margin: 0 auto;
-    margin-top: -5px;
-    height: 400px;
+    height: 410px;
     width: 100%;
     color: white;
 }
@@ -34,6 +24,7 @@ body {
 .title h1 {
     display: inline-block;
     vertical-align: middle;
+    margin-right: 10px;
     animation: effect-glow 1.5s ease-in-out infinite alternate;
 }
 
