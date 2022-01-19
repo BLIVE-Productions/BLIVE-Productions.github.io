@@ -21,8 +21,8 @@ setInterval(async () => {
     while(randomNumber == wordIndex) { randomNumber = Math.floor(Math.random() * 2); }
     wordIndex = randomNumber;
 
-    underlineText.style.backgroundColor = '#ACCEF7'
-    await delay(Math.floor(Math.random() * (1200 - 200)) + 200);
+    underlineText.style.backgroundColor = '#ff383b'
+    await delay(Math.floor(Math.random() * (2000 - 800)) + 800);
     underlineText.innerHTML = '';
     underlineText.style.backgroundColor = ''
 
