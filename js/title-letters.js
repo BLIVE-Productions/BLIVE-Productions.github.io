@@ -4,9 +4,9 @@ const titleLetters = document.getElementById("title");
 const offerteLetters = document.getElementById("offerte-titel");
 
 if(titleLetters != null) {
-    setLettersFromDomElement(titleLetters, 100, 80);
+    setLettersFromDomElement(titleLetters, 80, 70);
     setInterval(() => {
-        setLettersFromDomElement(titleLetters, 100, 80);
+        setLettersFromDomElement(titleLetters, 80, 70);
     },1200);
 }
 
