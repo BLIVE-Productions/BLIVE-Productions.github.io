@@ -256,7 +256,7 @@ body {
     height: 10px;
     width: 100%;
     bottom: 0;
-    background-color: crimson;
+    background-color: #ff383b;
     z-index: 2;
 }
 
@@ -284,4 +284,16 @@ body {
 footer {
     text-align: center;
     width: 100%;
+}
+
+.underline .message {
+    display: inline-block;
+}
+
+.underline .error {
+    font-size: 30px;
+}
+
+a {
+    color: #ff383b;
 }
