@@ -46,12 +46,6 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .timeline__content-title {
-    font-size: 44px;
-  }
-}
-
 .timeline-item {
   padding: 40px 0;
   opacity: 0.3;
@@ -148,6 +142,7 @@
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url("../src/proxy/foto1_1610\ \(Large\).png");
 }
 
 .timeline-container:before {
@@ -182,4 +177,11 @@
   letter-spacing: 5px;
   margin: 10px 0 0 0;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 450px) {
+  .timeline__content-title {
+    font-size: 44px;
+    padding-top: 15px
+  }
 }
