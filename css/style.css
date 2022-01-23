@@ -459,7 +459,7 @@ button:hover .button-text {
     z-index: 1000;
     bottom: 0;
     right: 0;
-    margin: 0px 10px 20px 0px;
+    margin: 0px 15px 25px 0px;
     transition: 1s;
 }
 
