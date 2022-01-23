@@ -212,3 +212,8 @@ textarea:valid+label {
   text-align: center;
   opacity: .75;
 }
+
+.secondline {
+  color: rgb(182, 182, 182);
+  margin-top: 40px;
+}
