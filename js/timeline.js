@@ -19,7 +19,7 @@
       var itemLength = selectors.item.length;
       $(window).scroll(function() {
         var max, min;
-        var pos = $(this).scrollTop();
+        var pos = $(this).scrollTop() + 300;
         selectors.item.each(function(i) {
           min = $(this).offset().top;
           max = $(this).height() + $(this).offset().top;
@@ -28,22 +28,22 @@
             selectors.item.removeClass(selectors.activeClass);
             selectors.id.css(
               "background-image",
-              "url(" +
+              'url("' +
                 selectors.item
                   .last()
                   .find(selectors.img)
                   .attr("src") +
-                ")"
+                '")'
             );
             selectors.item.last().addClass(selectors.activeClass);
           } else if (pos <= max - 40 && pos >= min) {
             selectors.id.css(
               "background-image",
-              "url(" +
+              'url("' +
                 $(this)
                   .find(selectors.img)
                   .attr("src") +
-                ")"
+                '")'
             );
             selectors.item.removeClass(selectors.activeClass);
             $(this).addClass(selectors.activeClass);

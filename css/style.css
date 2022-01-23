@@ -33,11 +33,11 @@ body {
 }
 
 .effect-blur {
-    filter:blur(1px);
+    filter: blur(1px);
 }
 
 .effect-blur-small {
-    filter:blur(.75px);
+    filter: blur(.75px);
 }
 
 .effect-grain-overlay {
@@ -45,10 +45,10 @@ body {
     z-index: 100;
     position: fixed;
     height: 100%;
-    top:0;
+    top: 0;
     width: 100%;
     opacity: 0.4;
-    pointer-events:none;
+    pointer-events: none;
 }
 
 .f-size-smaller {
@@ -62,24 +62,25 @@ body {
 
 @keyframes effect-glow {
     from {
-        text-shadow: 
-            0 0 10px rgba(0,0,0, 0.2), 
-            0 0 20px rgba(0,0,0, 0.2), 
-            0 0 30px rgba(0,0,0, 0.2), 
-            0 0 40px rgba(0,0,0, 0.2), 
-            0 0 50px rgba(0,0,0, 0.2), 
-            0 0 60px rgba(0,0,0, 0.2), 
-            0 0 70px rgba(0,0,0, 0.2);
+        text-shadow:
+            0 0 10px rgba(0, 0, 0, 0.2),
+            0 0 20px rgba(0, 0, 0, 0.2),
+            0 0 30px rgba(0, 0, 0, 0.2),
+            0 0 40px rgba(0, 0, 0, 0.2),
+            0 0 50px rgba(0, 0, 0, 0.2),
+            0 0 60px rgba(0, 0, 0, 0.2),
+            0 0 70px rgba(0, 0, 0, 0.2);
     }
+
     to {
-        text-shadow: 
-            0 0 20px rgba(0,0,0, 0.3), 
-            0 0 30px rgba(0,0,0, 0.3), 
-            0 0 40px rgba(0,0,0, 0.3), 
-            0 0 50px rgba(0,0,0, 0.3), 
-            0 0 60px rgba(0,0,0, 0.3), 
-            0 0 70px rgba(0,0,0, 0.3), 
-            0 0 80px rgba(0,0,0, 0.3);
+        text-shadow:
+            0 0 20px rgba(0, 0, 0, 0.3),
+            0 0 30px rgba(0, 0, 0, 0.3),
+            0 0 40px rgba(0, 0, 0, 0.3),
+            0 0 50px rgba(0, 0, 0, 0.3),
+            0 0 60px rgba(0, 0, 0, 0.3),
+            0 0 70px rgba(0, 0, 0, 0.3),
+            0 0 80px rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -95,9 +96,11 @@ body {
     animation: effect-blinking .75s ease-in-out infinite alternate;
     display: inline-block;
 }
+
 #underline-text {
     display: inline-block;
 }
+
 .underline {
     font-size: 18px;
     font-family: 'Courier new';
@@ -110,6 +113,7 @@ body {
 .effect-wiggle-1 {
     animation: effect-wiggle-1 1s infinite alternate;
 }
+
 .effect-wiggle-2 {
     animation: effect-wiggle-2 1s infinite alternate;
 }
@@ -118,40 +122,106 @@ body {
     0% {
         opacity: 1;
     }
+
     50% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
 @keyframes effect-wiggle-1 {
-    0% { transform: translate(.1px, .2px) rotate(0deg); }
-    10% { transform: translate(-.2px, -.3px) rotate(-.02deg); }
-    20% { transform: translate(-.25px, 0px) rotate(.01deg); }
-    30% { transform: translate(.2px, .2px) rotate(0deg); }
-    40% { transform: translate(.1px, -.2px) rotate(.03deg); }
-    50% { transform: translate(-.25px, .15px) rotate(-.01deg); }
-    60% { transform: translate(-.2px, .25px) rotate(0deg); }
-    70% { transform: translate(.25px, .25px) rotate(-.02deg); }
-    80% { transform: translate(-.15px, -.25px) rotate(.015deg); }
-    90% { transform: translate(.15px, .2px) rotate(0deg); }
-    100% { transform: translate(.2px, -.25px) rotate(-.02deg); }
+    0% {
+        transform: translate(.1px, .2px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-.2px, -.3px) rotate(-.02deg);
+    }
+
+    20% {
+        transform: translate(-.25px, 0px) rotate(.01deg);
+    }
+
+    30% {
+        transform: translate(.2px, .2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(.1px, -.2px) rotate(.03deg);
+    }
+
+    50% {
+        transform: translate(-.25px, .15px) rotate(-.01deg);
+    }
+
+    60% {
+        transform: translate(-.2px, .25px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(.25px, .25px) rotate(-.02deg);
+    }
+
+    80% {
+        transform: translate(-.15px, -.25px) rotate(.015deg);
+    }
+
+    90% {
+        transform: translate(.15px, .2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(.2px, -.25px) rotate(-.02deg);
+    }
 }
 
 @keyframes effect-wiggle-2 {
-    0% { transform: translate(.2px, .2px) rotate(-.03deg); }
-    10% { transform: translate(.1px, .25px) rotate(0deg); }
-    20% { transform: translate(.3px, -.2px) rotate(-.02deg); }
-    30% { transform: translate(.25px, -.1px) rotate(.015deg); }
-    40% { transform: translate(-.2px, -.25px) rotate(-.02deg); }
-    50% { transform: translate(.15px, .25px) rotate(0deg); }
-    60% { transform: translate(-.1px, .2px) rotate(0deg); }
-    70% { transform: translate(-.25px, 0px) rotate(.02deg); }
-    80% { transform: translate(.2px, .15px) rotate(0deg); }
-    90% { transform: translate(-.25px, -.25px) rotate(.01deg); }
-    100% { transform: translate(-.15px, .2px) rotate(-.015deg); }
+    0% {
+        transform: translate(.2px, .2px) rotate(-.03deg);
+    }
+
+    10% {
+        transform: translate(.1px, .25px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(.3px, -.2px) rotate(-.02deg);
+    }
+
+    30% {
+        transform: translate(.25px, -.1px) rotate(.015deg);
+    }
+
+    40% {
+        transform: translate(-.2px, -.25px) rotate(-.02deg);
+    }
+
+    50% {
+        transform: translate(.15px, .25px) rotate(0deg);
+    }
+
+    60% {
+        transform: translate(-.1px, .2px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(-.25px, 0px) rotate(.02deg);
+    }
+
+    80% {
+        transform: translate(.2px, .15px) rotate(0deg);
+    }
+
+    90% {
+        transform: translate(-.25px, -.25px) rotate(.01deg);
+    }
+
+    100% {
+        transform: translate(-.15px, .2px) rotate(-.015deg);
+    }
 }
 
 .scroll {
@@ -162,12 +232,13 @@ body {
     width: 100%;
     top: 200px;
 }
+
 .scrolldown-container {
     position: relative;
     width: 24px;
     height: 24px;
 }
-  
+
 .chevron {
     position: absolute;
     width: 28px;
@@ -209,14 +280,17 @@ body {
     25% {
         opacity: 1;
     }
+
     33% {
         opacity: 1;
         transform: translateY(30px);
     }
+
     67% {
         opacity: 1;
         transform: translateY(40px);
     }
+
     100% {
         opacity: 0;
         transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
@@ -266,13 +340,6 @@ body {
     transition: 1s;
 }
 
-#footer-copyright {
-    bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 11px;
-    color: white;
-}
-
 .underline .message {
     display: inline-block;
 }
@@ -291,29 +358,113 @@ a {
 
 main {
     position: relative;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     background-color: white;
     z-index: 2;
     width: 100%;
 }
-  
-footer {
-    position: fixed;
+
+/*button*/
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button.learn-more {
+    width: 17rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #ff383b;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
     bottom: 0;
-    width: 100%;
-    height: 250px;  
-    background: #2B2B2B;
-    text-align: center;
+    margin: auto;
+    background: #fff;
 }
 
-footer img {
-    width: 250px;
-    margin-top: 50px;
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
 }
 
-footer p {
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
+
+.offerte-button-container {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    margin: 0px 10px 20px 0px;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 767px) {
+    .offerte-button-container {
+        display: none;
+    }
 }

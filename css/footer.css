@@ -1,0 +1,24 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: #2B2B2B;
+    text-align: center;
+    font-family: Menlo, monospace;
+    line-height: 1.3;
+    vertical-align: middle;
+}
+
+footer img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+footer p {
+    font-family: 'Courier new';
+    font-size: 11px;
+    color: rgb(116, 116, 116);
+}
