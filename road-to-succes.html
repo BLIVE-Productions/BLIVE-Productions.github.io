@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <head>
-    <title>BLIVE</title>
-    <link rel="stylesheet" type="text/css" href="css/font-faces.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/timeline-style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/contact-form.css"/>
+  <title>BLIVE</title>
+  <link rel="stylesheet" type="text/css" href="css/font-faces.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/timeline.css" />
+  <link rel="stylesheet" type="text/css" href="css/contact-form.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
-    <link rel="icon" href="src/BLIVE SMALL LOGO.png" type="image/icon type">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="src/BLIVE SMALL LOGO.png" type="image/icon type">
 
-    <!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9DH6Z1J9X"></script>
-    <script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9DH6Z1J9X"></script>
+  <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
@@ -22,250 +25,189 @@
     </script>
 </head>
 <html>
-<body>
+  <body>
 
     <!-- constants -->
     <div class="effect-grain-overlay"></div>
     <div class="fixed-logo"><img src="src/BLIVE LOGO TRANSPARENT.png" id="logo"/></div>
-    <!--<div class="fixed-footer-stripe"></div>-->
+    <div class="fixed-footer-stripe"></div>
 
     <!-- page -->
-    <div class="container">
+    <main>
+      <div class="container">
 
         <!-- HEADER -->
         <div class="header-content">
-            <div class="ag-timeline-block">
-                <div class="ag-timeline_title-box">
-                    <div class="logo-container effect-wiggle-1">
-                        <div class="title effect-blur" id="title">
-                            <h1>B</h1>
-                            <h1>L</h1>
-                            <h1>I</h1>
-                            <h1>V</h1>
-                            <h1>E</h1>
-                        </div>
-                    </div>
-        
-                    <div class="underline effect-blur-small">
-                        <p class="message road-to-succes effect-wiggle-2">Onze weg naar succes...</p><p id="typing-line">|</p>
-                    </div>
-                </div>
-                <section class="ag-section">
-                    <div class="ag-format-container">
-                    <div class="js-timeline ag-timeline">
-                        <div class="js-timeline_line ag-timeline_line">
-                        <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
-                        </div>
-                        <div class="ag-timeline_list">
-                        <div class="js-timeline_item js-ag-animated ag-timeline_item">
-                            <div class="ag-timeline-card_item">
-                            <div class="ag-timeline-card_inner">
-                                <!--<div class="ag-timeline-card_img-box">
-                                <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>-->
-                                <div class="ag-timeline-card_info">
-                                <div class="ag-timeline-card_title">Flexibel</div>
-                                <div class="ag-timeline-card_desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-                                    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-                                    montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-                                    pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
-                                    vel, aliquet nec, vulputate eget, arcu.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="ag-timeline-card_arrow"></div>
-                            </div>
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                            <div class="ag-timeline-card_point">1</div>
-                            </div>
-                            <div class="ag-timeline-card_meta-box">
-                            <div class="ag-timeline-card_meta">Flexibel</div>
-                            </div>
-                        </div>
-                
-                        <div class="js-timeline_item js-ag-animated ag-timeline_item">
-                            <div class="ag-timeline-card_item">
-                            <div class="ag-timeline-card_inner">
-                                <!--<div class="ag-timeline-card_img-box">
-                                <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>-->
-                                <div class="ag-timeline-card_info">
-                                <div class="ag-timeline-card_title">Betrokken</div>
-                                <div class="ag-timeline-card_desc">
-                                    Donec pede justo, fringilla
-                                    vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                                    venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer
-                                    tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-                                    tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
-                                    nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="ag-timeline-card_arrow"></div>
-                            </div>
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                            <div class="ag-timeline-card_point">2</div>
-                            </div>
-                            <div class="ag-timeline-card_meta-box">
-                            <div class="ag-timeline-card_meta">Betrokken</div>
-                            </div>
-                        </div>
-                
-                        <div class="js-timeline_item js-ag-animated ag-timeline_item">
-                            <div class="ag-timeline-card_item">
-                            <div class="ag-timeline-card_inner">
-                                <!--<div class="ag-timeline-card_img-box">
-                                <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>-->
-                                <div class="ag-timeline-card_info">
-                                <div class="ag-timeline-card_title">Prijs/kwaliteit</div>
-                                <div class="ag-timeline-card_desc">
-                                    Aenean imperdiet. Etiam ultricies
-                                    nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
-                                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet
-                                    adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
-                                    hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
-                                    sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget
-                                    eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="ag-timeline-card_arrow"></div>
-                            </div>
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                            <div class="ag-timeline-card_point">3</div>
-                            </div>
-                            <div class="ag-timeline-card_meta-box">
-                            <div class="ag-timeline-card_meta">Prijs/kwaliteit</div>
-                            </div>
-                        </div>
-                
-                        <div class="js-timeline_item js-ag-animated ag-timeline_item">
-                            <div class="ag-timeline-card_item">
-                            <div class="ag-timeline-card_inner">
-                                <!--<div class="ag-timeline-card_img-box">
-                                <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                </div>-->
-                                <div class="ag-timeline-card_info">
-                                <div class="ag-timeline-card_title">Klanttevredenheid</div>
-                                <div class="ag-timeline-card_desc">
-                                    Vivamus elementum semper nisi. Aenean vulputate eleifend
-                                    tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
-                                    nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-                                    nisi vel augue. Curabitur ullamcorper ultricies nisi.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="ag-timeline-card_arrow"></div>
-                            </div>
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                            <div class="ag-timeline-card_point">4</div>
-                            </div>
-                            <div class="ag-timeline-card_meta-box">
-                            <div class="ag-timeline-card_meta">Klanttevredenheid</div>
-                            </div>
-                        </div>
 
-                        <div class="js-timeline_item js-ag-animated ag-timeline_item">
-                            <div class="ag-timeline-card_item">
-                                <div class="ag-timeline-card_inner">
-                                    <!--<div class="ag-timeline-card_img-box">
-                                    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-13.png" class="ag-timeline-card_img" width="640" height="360" />
-                                    </div>-->
-                                    <div class="ag-timeline-card_info">
-                                    <div class="ag-timeline-card_title">Neem Contact Op</div>
-                                    <div class="ag-timeline-card_desc">
-                                        Vivamus elementum semper nisi. Aenean vulputate eleifend
-                                        tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                                        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
-                                        nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies
-                                        nisi vel augue. Curabitur ullamcorper ultricies nisi.
-                                    </div>
-                                    </div>
-                                </div>
-                            <div class="ag-timeline-card_arrow"></div>
-                            </div>
-                            <div class="js-timeline-card_point-box ag-timeline-card_point-box">
-                            <div class="ag-timeline-card_point">5</div>
-                            </div>
-                            <div class="ag-timeline-card_meta-box">
-                            <div class="ag-timeline-card_meta">Neem Contact Op</div>
-                            </div>
-                        </div>
 
-                    </div>
-                    </div>
-                </section>
-                </div>
-        </div>   
-        
-        <section id="contact">
-            <div class="contact-box">
-              <div class="contact-links">
-                <div class="underline-contact effect-blur-small">
-                    <p class="message road-to-succes effect-wiggle-2">Neem nu contact op voor een</p>
-                </div>                
-                <div class="logo-container effect-wiggle-1">
-                    <div class="offerte-titel effect-blur" id="offerte-titel">
-                        <h1>O</h1>
-                        <h1>F</h1>
-                        <h1>F</h1>
-                        <h1>E</h1>
-                        <h1>R</h1>
-                        <h1>T</h1>
-                        <h1>E</h1>
-                    </div>
-                </div>
-                <div class="links">
-                  <div class="link">
-                    <a href="https://www.linkedin.com/company/blive-productions" target="_blank"><img class="contact-img" src="https://i.postimg.cc/m2mg2Hjm/linkedin.png" alt="linkedin"></a>
-                  </div>
-                  <div class="link">
-                    <a href="tel:+31620454074"><img class="contact-img" src="https://i.postimg.cc/W4Znvrry/codepen.png" alt="telefoonnummer"></a>
-                  </div>
-                  <div class="link">
-                    <a href="mailto:info@blive.stream"><img class="contact-img" src="https://i.postimg.cc/NjLfyjPB/email.png" alt="email"></a>
-                  </div>
+          <div class="timeline-container" id="timeline-1">
+            <div class="timeline-header">
+              
+              <div class="logo-container effect-wiggle-1">
+                <div class="title effect-blur" id="title">
+                  <h1>B</h1>
+                  <h1>L</h1>
+                  <h1>I</h1>
+                  <h1>V</h1>
+                  <h1>E</h1>
                 </div>
               </div>
-              <div class="contact-form-wrapper">
-                <form>
-                  <div class="form-item">
-                    <input type="text" name="sender" required>
-                    <label>Voor- en achternaam:</label>
-                  </div>
-                  <div class="form-item">
-                    <input type="text" name="email" required>
-                    <label>Email:</label>
-                  </div>
-                  <div class="form-item">
-                    <textarea class="" name="message" required></textarea>
-                    <label>Uitleg project/Evenement:</label>
-                  </div>
-                  <button class="submit-btn">Verzenden!</button>  
-                </form>
+
+              <div class="underline effect-blur-small">
+                <p class="message road-to-succes effect-wiggle-2">Onze weg naar
+                  succes...</p><p id="typing-line">|</p>
+              </div>
+              
+              <div class="scroll" id="scroll">
+                <div class="scrolldown-container">
+                  <div class="chevron"></div>
+                  <div class="chevron"></div>
+                  <div class="chevron"></div>
+                  <span class="text">Scroll naar beneden</span>
+                </div>
+              </div>
+
+            </div>
+            <div class="timeline">
+              <div class="timeline-item" data-text="FLEXIBILITEIT">
+                <div class="timeline__content">
+                  <img class="timeline__img"
+                    src="http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg"
+                    />
+                  <h2 class="timeline__content-title">Flexibel</h2>
+                  <p class="timeline__content-desc">He was born in 1881
+                    (probably in the spring) in Salonica, then an Ottoman city,
+                    now inGreece. His father Ali Riza, a customs official turned
+                    lumber merchant, died when Mustafawas still a boy. His
+                    mother Zubeyde, adevout and strong-willed woman, raised him
+                    and his sister.</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-text="BETROKKENHEID">
+                <div class="timeline__content">
+                  <img class="timeline__img"
+                    src="http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg"
+                    />
+                  <h2 class="timeline__content-title">Betrokken</h2>
+                  <p class="timeline__content-desc">First enrolled in a
+                    traditionalreligious school, he soon switched to a modern
+                    school. In 1893, he entered a military highschool where his
+                    mathematics teacher gave him the second name Kemal (meaning
+                    perfection)in recognition of young Mustafa's superior
+                    achievement.</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-text="PRIJS/KWALITEIT VERHOUDING">
+                <div class="timeline__content">
+                  <img class="timeline__img"
+                    src="http://ataturk.istanbul.gov.tr/GalleryLibrary/12.jpg"
+                    />
+                  <h2 class="timeline__content-title">Prijs/kwaliteit</h2>
+                  <p class="timeline__content-desc">In 1905, Mustafa Kemal
+                    graduated from the War Academy in Istanbul with the rank of
+                    Staff Captain. Posted in Damascus, he started with several
+                    colleagues, a clandestinesociety called "Homeland and
+                    Freedom" to fight against the Sultan'sdespotism.</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-text="KLANTTEVREDENHEID">
+                <div class="timeline__content">
+                  <img class="timeline__img"
+                    src="http://cdn.yemek.com/uploads/2014/11/ataturk-10-kasim.jpg"
+                    />
+                  <h2 class="timeline__content-title">Klanttevredenheid</h2>
+                  <p class="timeline__content-desc">In 1908 he helped the group
+                    of officers who toppled the Sultan. Mustafa Kemal'scareer
+                    flourished as he won his heroism in the far corners of the
+                    Ottoman Empire,including Albania and Tripoli. He also
+                    briefly served as a staff officer in Salonica andIstanbul
+                    and as a military attache in Sofia.</p>
+                </div>
+              </div>
+              <div class="timeline-item" data-text="OFFERTE AANVRAGEN">
+                <div class="timeline__content">
+                  <img class="timeline__img"
+                    src="http://ataturk.istanbul.gov.tr/GalleryLibrary/12.jpg"
+                    />
+                  <h2 class="timeline__content-title">Vraag een offerte aan</h2>
+                  <p class="timeline__content-desc">In 1915, when Dardanelles
+                    campaign was launched, Colonel Mustafa Kemal became
+                    anational hero by winning successive victories and finally
+                    repelling the invaders.</p>
+                </div>
               </div>
             </div>
-          </section>
-    </div>
+          </div>
+        </div>
+
+        <section id="contact">
+          <div class="contact-box">
+            <div class="contact-links">
+              <div class="underline-contact effect-blur-small">
+                <p class="message road-to-succes effect-wiggle-2">Neem nu
+                  contact op voor een</p>
+              </div>
+              <div class="logo-container effect-wiggle-1">
+                <div class="offerte-titel effect-blur" id="offerte-titel">
+                  <h1>O</h1>
+                  <h1>F</h1>
+                  <h1>F</h1>
+                  <h1>E</h1>
+                  <h1>R</h1>
+                  <h1>T</h1>
+                  <h1>E</h1>
+                </div>
+              </div>
+              <div class="links">
+                <div class="link">
+                  <a href="https://www.linkedin.com/company/blive-productions"
+                    target="_blank"><img class="contact-img"
+                      src="src/linkedin.png"
+                      alt="linkedin"></a>
+                </div>
+                <div class="link">
+                  <a href="tel:+31620454074"><img class="contact-img"
+                      src="src/phone-call.png"
+                      alt="telefoonnummer"></a>
+                </div>
+                <div class="link">
+                  <a href="mailto:info@blive.stream"><img class="contact-img"
+                      src="src/email.png" alt="email"></a>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form-wrapper">
+              <form>
+                <div class="form-item">
+                  <input type="text" name="sender" required>
+                  <label>Voor- en achternaam:</label>
+                </div>
+                <div class="form-item">
+                  <input type="text" name="email" required>
+                  <label>Email:</label>
+                </div>
+                <div class="form-item">
+                  <textarea class="" name="message" required></textarea>
+                  <label>Uitleg project/Evenement:</label>
+                </div>
+                <button class="submit-btn">Verzenden!</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <!-- FOOTER -->
     <footer>
-        <p id="footer-copyright">©BLIVE - <a href="https://www.linkedin.com/in/paul-boerma/">Paul Boerma</a></p>
+      <img src="src/BLIVE LOGO WITH SLOGAN.png">
+      <p id="footer-copyright">©BLIVE - <a href="https://www.linkedin.com/in/paul-boerma/">Paul Boerma</a></p>
     </footer>
 
     <!-- scripts -->
     <script src="js/title-letters.js"></script>
     <script src="js/title-underline.js"></script>
     <script src="js/timeline.js"></script>
-
-    <!-- TODO -->
-    <!-- Hierna verschillende skewed div's waarin inhoud staat-->
-    <!-- op de inhoud zelfde teken effecten gooien -->
-    <!-- footer versheind uit de rode balk beneden -->
-
-</body>
+    <script src="js/scroll.js"></script>
+  </body>
 </html>

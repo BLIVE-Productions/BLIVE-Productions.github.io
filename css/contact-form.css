@@ -41,7 +41,7 @@
 }
 
 .contact-form-wrapper {
-  background-color: #ffffff8f;
+  background-color: #c4c4c48f;
   border-radius: 0 10px 10px 0;
 }
 
@@ -94,6 +94,9 @@ h2 {
   filter: drop-shadow(2px 4px 4px #0006);
   transition: 0.2s;
   user-select: none;
+  background-color: #f8b3a8;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .contact-img:hover {
@@ -113,6 +116,11 @@ h2 {
 
 label, input, textarea {
   font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  height: 200px;
 }
 
 label {

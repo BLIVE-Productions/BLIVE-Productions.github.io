@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    color: white;
+    color: black;
     margin: 0;
     overflow-x: hidden;
-    background-color: black;
+    background-color: white;
 }
 
 .header-content {
@@ -18,7 +18,7 @@ body {
     text-align: center;
     height: 410px;
     width: 100%;
-    color: white;
+    color: black;
 }
 
 .title h1 {
@@ -63,23 +63,23 @@ body {
 @keyframes effect-glow {
     from {
         text-shadow: 
-            0 0 10px rgba(255,255,255, 0.2), 
-            0 0 20px rgba(255,255,255, 0.2), 
-            0 0 30px rgba(255,255,255, 0.2), 
-            0 0 40px rgba(255,255,255, 0.2), 
-            0 0 50px rgba(255,255,255, 0.2), 
-            0 0 60px rgba(255,255,255, 0.2), 
-            0 0 70px rgba(255,255,255, 0.2);
+            0 0 10px rgba(0,0,0, 0.2), 
+            0 0 20px rgba(0,0,0, 0.2), 
+            0 0 30px rgba(0,0,0, 0.2), 
+            0 0 40px rgba(0,0,0, 0.2), 
+            0 0 50px rgba(0,0,0, 0.2), 
+            0 0 60px rgba(0,0,0, 0.2), 
+            0 0 70px rgba(0,0,0, 0.2);
     }
     to {
         text-shadow: 
-            0 0 20px rgba(255,255,255, 0.3), 
-            0 0 30px rgba(255,255,255, 0.3), 
-            0 0 40px rgba(255,255,255, 0.3), 
-            0 0 50px rgba(255,255,255, 0.3), 
-            0 0 60px rgba(255,255,255, 0.3), 
-            0 0 70px rgba(255,255,255, 0.3), 
-            0 0 80px rgba(255,255,255, 0.3);
+            0 0 20px rgba(0,0,0, 0.3), 
+            0 0 30px rgba(0,0,0, 0.3), 
+            0 0 40px rgba(0,0,0, 0.3), 
+            0 0 50px rgba(0,0,0, 0.3), 
+            0 0 60px rgba(0,0,0, 0.3), 
+            0 0 70px rgba(0,0,0, 0.3), 
+            0 0 80px rgba(0,0,0, 0.3);
     }
 }
 
@@ -103,7 +103,7 @@ body {
     font-family: 'Courier new';
     font-weight: 500;
     text-align: center;
-    margin-top: -200px;
+    margin-top: -250px;
     opacity: .75;
 }
 
@@ -160,7 +160,7 @@ body {
     align-items: center;
     position: absolute;
     width: 100%;
-    top: 80vh;
+    top: 200px;
 }
 .scrolldown-container {
     position: relative;
@@ -248,7 +248,7 @@ body {
     width: 100%;
     bottom: 0;
     background-color: #ff383b;
-    z-index: 2;
+    z-index: 100;
 }
 
 #scroll {
@@ -270,11 +270,7 @@ body {
     bottom: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 11px;
-}
-
-footer {
-    text-align: center;
-    width: 100%;
+    color: white;
 }
 
 .underline .message {
@@ -291,4 +287,33 @@ a {
 
 .road-to-succes {
     background-color: #ff383b;
+}
+
+main {
+    position: relative;
+    margin-bottom: 250px;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+}
+  
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 250px;  
+    background: #2B2B2B;
+    text-align: center;
+}
+
+footer img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
 }
