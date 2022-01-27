@@ -22,13 +22,13 @@
 
 
 .contact-links {
-  background-color: #111111;
+  background-color: #962f31;
   background:
-    radial-gradient(circle at 55% 92%, #222 0 12%, transparent 12.2%),
-    radial-gradient(circle at 94% 72%, #222 0 10%, transparent 10.2%),
-    radial-gradient(circle at 20% max(78%, 350px), #222 0 7%, transparent 7.2%),
-    radial-gradient(circle at 0% 0%, #222 0 40%, transparent 40.2%),
-    #111111;
+    radial-gradient(circle at 55% 92%, #f8b3a8 0 12%, transparent 12.2%),
+    radial-gradient(circle at 94% 72%, #f8b3a8 0 10%, transparent 10.2%),
+    radial-gradient(circle at 20% max(78%, 350px), #f8b3a8 0 7%, transparent 7.2%),
+    radial-gradient(circle at 0% 0%, #f8b3a8 0 40%, transparent 40.2%),
+    #962f31;
   border-radius: 10px 0 0 10px;
 }
 
