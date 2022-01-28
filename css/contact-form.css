@@ -24,12 +24,13 @@
 .contact-links {
   background-color: #962f31;
   background:
-    radial-gradient(circle at 55% 92%, #f8b3a8 0 12%, transparent 12.2%),
-    radial-gradient(circle at 94% 72%, #f8b3a8 0 10%, transparent 10.2%),
-    radial-gradient(circle at 20% max(78%, 350px), #f8b3a8 0 7%, transparent 7.2%),
-    radial-gradient(circle at 0% 0%, #f8b3a8 0 40%, transparent 40.2%),
+    radial-gradient(circle at 55% 92%, #d68275 0 12%, transparent 12.2%),
+    radial-gradient(circle at 94% 72%, #d68275 0 10%, transparent 10.2%),
+    radial-gradient(circle at 20% max(78%, 350px), #d68275 0 7%, transparent 7.2%),
+    radial-gradient(circle at 0% 0%, #d68275 0 40%, transparent 40.2%),
     #962f31;
   border-radius: 10px 0 0 10px;
+  text-align: center;
 }
 
 .contact-form-wrapper {
@@ -72,7 +73,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .link {
@@ -210,10 +211,8 @@ textarea:valid+label {
   font-family: 'Courier new';
   font-weight: 500;
   text-align: center;
-  opacity: .75;
 }
 
 .secondline {
-  color: rgb(182, 182, 182);
-  margin-top: 40px;
+  color: white
 }

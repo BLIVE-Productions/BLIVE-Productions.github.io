@@ -354,6 +354,7 @@ a {
 
 .road-to-succes {
     background-color: #ff383b;
+    color: white;
 }
 
 main {
@@ -468,6 +469,11 @@ button:hover .button-text {
     transition: 1s;
 }
 
+#offerte-gif {
+    width: 300px;
+    transition: 1s;
+}
+
 .logo-container {
     vertical-align: middle;
     text-align: center;
@@ -483,6 +489,10 @@ button:hover .button-text {
     .scroll {
         top: 250px;
     }
+}
+
+#arrow-contact {
+    height: 50px;
 }
 
 
