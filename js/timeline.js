@@ -16,6 +16,10 @@
             .attr("src") +
           ")"
       );
+      console.log(selectors.item
+        .first()
+        .find(selectors.img)
+        .attr("src"));
       var itemLength = selectors.item.length;
       $(window).scroll(function() {
         var max, min;
