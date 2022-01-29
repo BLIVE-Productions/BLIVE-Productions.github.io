@@ -39,6 +39,10 @@
                   .attr("src") +
                 '")'
             );
+            console.log(selectors.item
+              .first()
+              .find(selectors.img)
+              .attr("src"));
             selectors.item.last().addClass(selectors.activeClass);
           } else if (pos <= max - 40 && pos >= min) {
             selectors.id.css(
@@ -49,6 +53,9 @@
                   .attr("src") +
                 '")'
             );
+            console.log($(this)
+            .find(selectors.img)
+            .attr("src"));
             selectors.item.removeClass(selectors.activeClass);
             $(this).addClass(selectors.activeClass);
           }
