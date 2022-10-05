@@ -13,11 +13,11 @@
 }
 
 @keyframes glow-red {
-    from { text-shadow: 0 0 5px #ff393b; }
-    to { text-shadow: 0 0 10px #ff393b; }
+    from { text-shadow: 0 0 2.5px #ff393b; }
+    to { text-shadow: 0 0 5px #ff393b; }
 }
 
 @keyframes glow-white {
-    from { text-shadow: 0 0 5px white; }
-    to { text-shadow: 0 0 10px white; }
+    from { text-shadow: 0 0 2.5px white; }
+    to { text-shadow: 0 0 5px white; }
 }

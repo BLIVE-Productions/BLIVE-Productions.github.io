@@ -9,7 +9,6 @@
     background: #ff393b;
     color: white;
 }
-  
 
 html {
     scroll-behavior: smooth;
@@ -61,7 +60,7 @@ video {
 
 .button {
     margin-left: 8%;
-    margin-top: 30%;
+    margin-top: 32%;
     border-radius: 30px;
     padding: 15px;
     font-size: 20px;
