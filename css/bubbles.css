@@ -1,0 +1,28 @@
+.bubbles {
+    position: absolute;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+}
+
+.bubble {
+    background-color: #ffaaab;
+    border-radius: 50%;
+    position: absolute;
+    animation: popup 3s ease-in-out alternate infinite;
+}
+
+.bubble-variant-1 {
+    height: 25px;
+    width: 25px;
+}
+
+.bubble-variant-2 {
+    height: 13px;
+    width: 13px;
+}
+
+.bubble-variant-3 {
+    height: 7px;
+    width: 7px;
+}

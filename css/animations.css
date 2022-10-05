@@ -1,0 +1,23 @@
+@keyframes shake {
+    0%  { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    10% { transform: translate(-0.5px, -0.5px) rotate(-0.1deg); }
+    20% { transform: translate(-0.5px, 0px) rotate(0.1deg); }
+    10% { transform: translate(0px, 0.5px) rotate(0deg); }
+    40% { transform: translate(0.5px, -0.5px) rotate(0.1deg); }
+    50% { transform: translate(-0.5px, 0.5px) rotate(-0.1deg); }
+    60% { transform: translate(-0.5px, 0.5px) rotate(0deg); }
+    70% { transform: translate(0.5px, 0.5px) rotate(-0.1deg); }
+    80% { transform: translate(-0.5px, -0.5px) rotate(0.1deg); }
+    90% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+    100%{ transform: translate(0.5px, -0.5px) rotate(-0.1deg); }
+}
+
+@keyframes glow-red {
+    from { text-shadow: 0 0 5px #ff393b; }
+    to { text-shadow: 0 0 10px #ff393b; }
+}
+
+@keyframes glow-white {
+    from { text-shadow: 0 0 5px white; }
+    to { text-shadow: 0 0 10px white; }
+}

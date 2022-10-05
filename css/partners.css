@@ -1,0 +1,49 @@
+.partners {
+    height: 1000px;
+    background-image: url('../images/achtergrond_partners.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#partners__title {
+    padding-top: 300px;
+    color:white;
+    animation: 
+        shake 1.5s infinite, 
+        glow-white 1s ease-in-out infinite alternate;
+}
+
+.partners p {
+    width: 50%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+}
+
+.logos img {
+    width: 200px;
+    padding: 10px;
+    transition: .25s ease-in-out all;
+    filter: grayscale(1);
+    display: inline-block;
+}
+
+.logos {
+    text-align: center;
+}
+
+.logos img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+@media(max-width: 650px){
+    #partners__info {
+        font-size: 12px;
+    }
+
+    #partners__title {
+        padding-top: 250px;
+    }
+}

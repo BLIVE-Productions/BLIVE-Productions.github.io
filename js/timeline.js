@@ -7,15 +7,6 @@
         img: ".timeline__img"
       };
       selectors.item.eq(0).addClass(selectors.activeClass);
-      selectors.id.css(
-        "background-image",
-        "url(" +
-          selectors.item
-            .first()
-            .find(selectors.img)
-            .attr("src") +
-          ")"
-      );
       console.log(selectors.item
         .first()
         .find(selectors.img)
@@ -30,29 +21,12 @@
           var that = $(this);
           if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
             selectors.item.removeClass(selectors.activeClass);
-            selectors.id.css(
-              "background-image",
-              'url("' +
-                selectors.item
-                  .last()
-                  .find(selectors.img)
-                  .attr("src") +
-                '")'
-            );
             console.log(selectors.item
               .first()
               .find(selectors.img)
               .attr("src"));
             selectors.item.last().addClass(selectors.activeClass);
           } else if (pos <= max - 40 && pos >= min) {
-            selectors.id.css(
-              "background-image",
-              'url("' +
-                $(this)
-                  .find(selectors.img)
-                  .attr("src") +
-                '")'
-            );
             console.log($(this)
             .find(selectors.img)
             .attr("src"));
@@ -65,4 +39,3 @@
   })(jQuery);
   
   $("#timeline-1").timeline();
-  

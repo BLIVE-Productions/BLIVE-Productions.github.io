@@ -1,48 +1,343 @@
-<!DOCTYPE html>
+<!doctype html>
+
+<html lang="nl">
 
 <head>
-    <title>BLIVE</title>
-    <link rel="stylesheet" type="text/css" href="css/font-faces.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/loading.css" />
-    <link rel="icon" href="src/BLIVE SMALL LOGO.png" type="image/icon type">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv='refresh' content='0; URL=http://blive.stream/road-to-succes'>
+  <title>BLIVE Videoproducties</title>
 
-    <!-- Jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9DH6Z1J9X"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- METADATA -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="BLIVE is een betrokken en enthousiast videoproductiebedrijf dat zich in zet om met uw unieke verhaal de juiste doelgroep te bereiken.">
+  <meta name="author" content="BLIVE">
+  <meta name="title" content="BLIVE Videoproducties">
 
-        gtag('config', 'G-T9DH6Z1J9X');
-    </script>
+  <meta property="og:title" content="BLIVE Videoproducties">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.blive.stream">
+  <meta property="og:image" src="images/logo/BLIVE SMALL LOGO TRANSPARENT.png">
+  <meta property="og:description"
+    content="BLIVE is een betrokken en enthousiast videoproductiebedrijf dat zich in zet om met uw unieke verhaal de juiste doelgroep te bereiken.">
+
+  <link rel="icon" type="image/png" href="images/logo/BLIVE SMALL LOGO TRANSPARENT.png">
+
+  <!-- STYLESHEETS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/fontfaces.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/core-values.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/partners.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/bubbles.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+  <!-- SCRIPT LIBRARIES -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
-<html>
 
 <body>
+  <!-- FIXED -->
+  <img id="logo" src="BLIVE LOGO TRANSPARENT ROOD.png" alt="Logo BLIVE" />
 
-    <!-- CONSTANTS -->
-    <div class="effect-grain-overlay"></div>
-    <div class="fixed-logo"><img src="src/BLIVE LOGO TRANSPARENT.png" id="logo" /></div>
-    <div class="fixed-footer-stripe"></div>
+  <!-- HEADER -->
+  <video src="header_animation_4.mp4" autoplay muted loop></video>
+  <div class="parent">
+    <img class="aspect-ratio" src="transparent_container_hack.png" alt="hidden image to keep aspect ratio" />
+    <div class="content-header">
+      <button class="button"><a href="#contact">NEEM NU CONTACT OP!</a></button>
+    </div>
+  </div>
 
-    <!-- PAGE -->
-    <div class="container">
+  <!-- CONTENT -->
+  <div class="content">
 
-        <div class="loading">
-            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <!-- MISSIE -->
+    <div class="core-values">
+      <h1 id="core-values__title" class="title" data-aos="fade-up" data-aos-delay="100"><span class="title-striped">ONZE
+          KERNWAARDEN</span></h1>
+      <section class="hero-section">
+        <div class="card-grid" data-aos="fade-up" data-aos-delay="250">
+
+          <a class="card" href="#">
+            <div class="card__background"
+              style="background-image: url(images/processed/20220927-Kernwaarde_betrokken.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">BETROKKEN</p>
+              <h3 class="card__heading">Wij zijn <span class="text-animator">BETROKKEN</span> bij uw
+                project</h3>
+              <p class="card__info">
+                WAAROM ZIJN WIJ ZO BETROKKEN
+              </p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card__background"
+              style="background-image: url(images/processed/20220117-kernwaarde_enthausiast.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">ENTHOUSIAST</p>
+              <h3 class="card__heading">Wij worden <span class="text-animator">ENTHOUSIAST</span> van
+                uitdagende opdrachten</h3>
+              <p class="card__info">
+                WAT BEREIKEN WIJ MET ONS ENTHOUSIASME
+              </p>
+            </div>
+          </a>
+
+          <a class="card" href="#">
+            <div class="card__background"
+              style="background-image: url(images/processed/20211214-kernwaarde_bereik_doelgroep.jpg)">
+            </div>
+            <div class="card__content">
+              <p class="card__category">BEREIK VAN DE JUISTE DOELGROEP</p>
+              <h3 class="card__heading">Wij <span class="text-animator">BEREIKEN</span> de juiste <span
+                  class="text-animator">DOELGROEPEN</span></h3>
+              <p class="card__info">
+                HOE BEREIKEN WIJJ DE JUISTE DOELGROEP
+              </p>
+            </div>
+          </a>
+
         </div>
+      </section>
     </div>
 
-    <!-- scripts -->
-    <script src="js/title-letters.js"></script>
-    <script src="js/title-underline.js"></script>
+    <!-- QUOTE -->
+    <div class="quote">
+      <div class="quote-container" data-aos="fade-up" data-aos-delay="250">
+        <p class="quote-text">“Dit is een lange quote over iets van film ofzo. Weet nog niet perse wat ik hier precies
+          ga zetten”</p>
+        <p class="quote-underline">~ Paul Boerma</p>
+        <div class="border-left border-left-white"></div>
+        <div class="border-right border-right-white"></div>
+        <div class="border-top border-top-white"></div>
+        <div class="border-bottom border-bottom-white"></div>
+      </div>
+    </div>
 
+    <!-- PORTFOLIO -->
+    <div class="portfolio">
+      <h1 id="portfolio__title" class="title" data-aos="fade-up"><span class="title-striped">ONS PORTFOLIO</span>
+      </h1>
+
+      <div class="portfolio-container">
+        <div class="wrapper">
+          <div class="img-1 img" data-aos="fade-right" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/3TGsKfwKro8" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-2 img" data-aos="fade-down" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/BFC_Kn-nUSQ" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-3 img" data-aos="fade-left" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/vxxtWzAReLo" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-4 img" data-aos="fade" data-aos-delay="750">
+            <iframe src="https://www.youtube.com/embed/BFC_Kn-nUSQ" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-5 img" data-aos="fade" data-aos-delay="750">
+            <iframe src="https://www.youtube.com/embed/vxxtWzAReLo" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-6 img" data-aos="fade-left" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/3TGsKfwKro8" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-7 img" data-aos="fade-right" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/vxxtWzAReLo" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="img-8 img" data-aos="fade-up" data-aos-delay="500">
+            <iframe src="https://www.youtube.com/embed/BFC_Kn-nUSQ" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="border-left border-left-red"></div>
+          <div class="border-right border-right-red"></div>
+          <div class="border-top border-top-red"></div>
+          <div class="border-bottom border-bottom-red"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARTNERS -->
+    <div class="partners">
+      <h1 id="partners__title" class="title" data-aos="fade-up" data-aos-delay="300"><span class="title-striped">ONZE
+          PARTNERS</span></h1>
+      <p id="partners__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat magna eget diam congue
+        porta. Proin
+        egestas purus sed odio pretium, et pulvinar lorem sagittis. Donec non mauris fermentum, tincidunt turpis
+        molestie, iaculis elit. Ut vel elit dictum, aliquam purus eu, pretium turpis. Quisque sit amet efficitur
+        nulla. Vestibulum eu volutpat turpis.</p>
+      <div class="logos">
+        <img src="images/logo-franciscus.png" alt="Logo franciscus gasthuis & vlietland" />
+        <img src="images/logo-maasstad.png" alt="Logo maasstad ziekenhuis" />
+        <img src="images/logo-iederin.png" alt="Logo iederin" />
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-container" id="contact">
+      <div class="container">
+        <div class="row">
+          <h1 id="contact__title" class="title" data-aos="fade-up" data-aos-delay="200"><span class="title-striped">NEEM
+              CONTACT OP</span>
+          </h1>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <h4 style="text-align:center">We hopen met jou in contact te komen!</h4>
+        </div>
+        <div class="row input-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Voor- en achternaam</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="200">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="200">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Telefoonnummer</label>
+            </div>
+          </div>
+          <div class="col-xs-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Bericht</label>
+            </div>
+          </div>
+          <div class="col-xs-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="btn-lrg submit-btn">Verstuur bericht</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="pg-footer">
+      <div class="footer-img"></div>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-content-column">
+            <div class="footer-logo">
+              <a class="footer-logo-link" href="#">
+                <img src="images/logo/BLIVE LOGO TRANSPARENT.png" class="footer-logo" alt="Logo BLIVE footer" />
+              </a>
+            </div>
+            <div class="footer-menu">
+              <h2 class="footer-menu-name">Algemene informatie</h2>
+              <ul id="menu-get-started" class="footer-menu-list">
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="#">KVK:87751518</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="#">BTW-nummer: XXXXXXXXXXX</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-menu">
+              <h2 class="footer-menu-name">Bedrijf</h2>
+              <ul id="menu-company" class="footer-menu-list">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a href="#">Contact</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                  <a href="#">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-menu">
+              <h2 class="footer-menu-name"> Wettelijke documenten</h2>
+              <ul id="menu-legal" class="footer-menu-list">
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                  <a href="#">Algemene voorwaarden</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a href="#">Privacyverklaring</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-menu">
+              <h2 class="footer-menu-name">Links</h2>
+              <ul id="menu-quick-links" class="footer-menu-list">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                  <a target="_blank" rel="noopener noreferrer" href="#">Onze Missie</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a href="#">Portfolio</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+                  <a href="#">Partners</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-call-to-action">
+              <h2 class="footer-call-to-action-title">Contact</h2>
+              <p class="footer-call-to-action-description">Heb je een vraag?</p>
+            </div>
+            <div class="footer-call-to-action">
+              <h2 class="footer-call-to-action-title">Mail ons</h2>
+              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
+                  target="_self">info@blive.stream</a></p>
+            </div>
+            <div class="footer-call-to-action">
+              <h2 class="footer-call-to-action-title">Bel ons</h2>
+              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
+                  target="_self">+31 6 20 45 40 74</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="footer-copyright-wrapper">
+            <p class="footer-copyright-text">
+              <a class="footer-copyright-link" href="#" target="_self"> ©2022 | Designed By BLIVE | All rights reserved
+              </a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/animated-titles.js"></script>
+  <script src="js/timeline.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
