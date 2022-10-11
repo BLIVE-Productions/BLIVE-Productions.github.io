@@ -1,5 +1,7 @@
 .portfolio {
-  height: 900px;
+  background-image: url('../images/portfolio achtergrond.png');
+  background-position: center;
+  height: 1080px;
 }
 
 iframe {

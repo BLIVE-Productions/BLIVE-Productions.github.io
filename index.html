@@ -42,7 +42,7 @@
 
 <body>
   <!-- FIXED -->
-  <img id="logo" src="BLIVE LOGO TRANSPARENT ROOD.png" alt="Logo BLIVE" />
+  <a href="#"><img id="logo" src="BLIVE LOGO TRANSPARENT ROOD.png" alt="Logo BLIVE" /></a>
 
   <!-- HEADER -->
   <video id="video" src="header_animation_4.mp4" autoplay muted loop></video>
@@ -57,7 +57,7 @@
   <div class="content">
 
     <!-- MISSIE -->
-    <div class="core-values">
+    <div class="core-values" id="kernwaarden">
       <h1 id="core-values__title" class="title" data-aos="fade-up" data-aos-delay="100"><span class="title-striped">ONZE
           KERNWAARDEN</span></h1>
       <section class="hero-section">
@@ -121,7 +121,7 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <h1 id="portfolio__title" class="title" data-aos="fade-up"><span class="title-striped">ONS PORTFOLIO</span>
       </h1>
 
@@ -176,7 +176,7 @@
     </div>
 
     <!-- PARTNERS -->
-    <div class="partners">
+    <div class="partners" id="partners">
       <h1 id="partners__title" class="title" data-aos="fade-up" data-aos-delay="300"><span class="title-striped">ONZE
           PARTNERS</span></h1>
       <p id="partners__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat magna eget diam congue
@@ -249,10 +249,16 @@
               <h2 class="footer-menu-name">Algemene informatie</h2>
               <ul id="menu-get-started" class="footer-menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="#">KVK:87751518</a>
+                  <a href="#">KVK: 87751518</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
                   <a href="#">BTW-nummer: XXXXXXXXXXX</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="#">IBAN: NL84 BUNQ 2075 5574 11</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="#">BIC: BUNQNL2AXXX</a>
                 </li>
               </ul>
             </div>
@@ -262,10 +268,10 @@
               <h2 class="footer-menu-name">Bedrijf</h2>
               <ul id="menu-company" class="footer-menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Contact</a>
+                  <a href="mailto:info@blive.stream">Contact</a>
                 </li>
                 <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                  <a href="#">LinkedIn</a>
+                  <a href="https://www.linkedin.com/company/blive-productions">LinkedIn</a>
                 </li>
               </ul>
             </div>
@@ -274,10 +280,10 @@
               <ul id="menu-legal" class="footer-menu-list">
                 <li
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a href="#">Algemene voorwaarden</a>
+                  <a href="documenten/Algemene_Voorwaarden_BLIVE_2020_V1.pdf" target="_blank">Algemene voorwaarden</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Privacyverklaring</a>
+                  <a href="documenten/privacy_statement_11-10-2022.pdf" target="_blank">Privacyverklaring</a>
                 </li>
               </ul>
             </div>
@@ -287,16 +293,16 @@
               <h2 class="footer-menu-name">Links</h2>
               <ul id="menu-quick-links" class="footer-menu-list">
                 <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="#">Onze Missie</a>
+                  <a rel="noopener noreferrer" href="#kernwaarden">Onze Kernwaarden</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Portfolio</a>
+                  <a href="#portfolio">Portfolio</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                  <a href="#">Partners</a>
+                  <a href="#partners">Partners</a>
                 </li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -308,13 +314,11 @@
             </div>
             <div class="footer-call-to-action">
               <h2 class="footer-call-to-action-title">Mail ons</h2>
-              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
-                  target="_self">info@blive.stream</a></p>
+              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="mailto:info@blive.stream">info@blive.stream</a></p>
             </div>
             <div class="footer-call-to-action">
               <h2 class="footer-call-to-action-title">Bel ons</h2>
-              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
-                  target="_self">+31 6 20 45 40 74</a></p>
+              <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:+31620454074">+31 6 20 45 40 74</a></p>
             </div>
           </div>
         </div>

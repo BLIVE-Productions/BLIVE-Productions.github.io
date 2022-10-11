@@ -1,7 +1,9 @@
 
 .contact-container {
     margin: 0 auto;
-    height: 700px;
+    background-image: url('../images/contact achtergrond.png');
+    background-position: center;
+    height: 795px;
 }
 
 .container {
