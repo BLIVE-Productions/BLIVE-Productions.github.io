@@ -192,7 +192,8 @@
     <!-- CONTACT -->
     <form  
       action="https://formspree.io/f/xdojwyav"
-      method="POST">
+      method="POST"
+    >
       <div class="contact-container" id="contact">
         <div class="container">
           <div class="row">
@@ -206,30 +207,30 @@
           <div class="row input-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-xs-12">
               <div class="styled-input wide">
-                <input type="text" name="voor- en achternaam" required />
-                <label>Voor- en achternaam</label>
+                <input type="text" name="voor-en-achternaam" id="voor-en-achternaam" required />
+                <label for="voor-en-achternaam">* Voor- en achternaam</label>
               </div>
             </div>
             <div class="col-md-6 col-sm-12" data-aos="fade-right" data-aos-delay="200">
               <div class="styled-input">
-                <input type="text" name="email" required />
-                <label>Email</label>
+                <input type="text" name="email" id="email" required />
+                <label for="email">* Email</label>
               </div>
             </div>
             <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-delay="200">
               <div class="styled-input" style="float:right;">
-                <input type="text" name="telefoonnummer" required />
-                <label>Telefoonnummer</label>
+                <input type="text" name="telefoonnummer" id="telefoonnummer" required />
+                <label for="telefoonnummer">* Telefoonnummer</label>
               </div>
             </div>
             <div class="col-xs-12" data-aos="fade-up" data-aos-delay="200">
-              <div class="styled-input wide">
-                <textarea required name="bericht"></textarea>
-                <label>Bericht</label>
+              <div class="styled-input wide"> 
+                <textarea required name="bericht" id="bericht"></textarea>
+                <label for="bericht">* Bericht</label>
               </div>
             </div>
             <div class="col-xs-12" data-aos="fade-up" data-aos-delay="200">
-              <div class="btn-lrg submit-btn"><button type="submit">Verstuur bericht</button></div>
+              <button type="submit" class="btn-lrg submit-btn">Verstuur bericht</button>
             </div>
           </div>
         </div>
