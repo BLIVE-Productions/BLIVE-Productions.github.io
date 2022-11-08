@@ -48,10 +48,9 @@
     }
 }
 
-/* @media(max-width: 500px){
+@media(max-width: 500px){
     .logos img {
-        width: 150px;
         display: block;
         margin: 0 auto;
     }
-} */
+}
