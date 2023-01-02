@@ -98,6 +98,10 @@ video {
     width: 100%;
 }
 
+.bg-500 {
+    background-color: #ff393b;
+}
+
 .h-3 {
     height: 300px;
 }

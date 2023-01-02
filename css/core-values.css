@@ -42,6 +42,7 @@
     transition: 
       filter 200ms linear,
       transform 200ms linear;
+    box-shadow: 2.5rem 3.75rem 3rem -3rem black;
   }
 
 .card__info {
@@ -50,32 +51,6 @@
   font-size: 15px;
 }
 
-.card:hover .card__category{
-  font-size: 1.3rem;
-  color: #ff393b;
-  font-weight: bold;
-}
-  
-.card:hover .card__background{
-  transform: scale(1.05) translateZ(0);
-}
-
-.card:hover .card__info {
-  display: block;
-}
-
-.card:hover .card__heading {
-  display: none;
-}
-  
-  .card-grid:hover > .card:not(:hover) .card__background {
-    filter: brightness(0.5) saturate(0) contrast(1.2) blur(5px);
-  }
-
-  .card-grid:hover > .card:not(:hover) .card__content {
-    filter: blur(2.5px);
-  }
-  
   .card__content{
     left: 0;
     padding: var(--spacing-l);
