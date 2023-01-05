@@ -95,6 +95,7 @@ video {
     z-index: 2;
     background-color: white;
     margin-top: -5px;
+    overflow-x: hidden;
 }
 
 .redspace {
