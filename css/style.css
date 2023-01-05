@@ -10,12 +10,16 @@
     color: white;
 }
 
-html body {
+body {
     font-family: ligurino, sans-serif;
     background-color: white;
     scroll-behavior: smooth;
-    position: relative;  
     overflow-x: hidden;    
+}
+
+html {
+    position: relative;
+    overflow-x: hidden;
 }
 
 video {
