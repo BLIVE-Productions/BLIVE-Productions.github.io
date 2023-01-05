@@ -291,3 +291,7 @@ h2 {
       font-size: 18px;
     }
 }
+
+video::-webkit-media-controls {
+    display: none;
+}
