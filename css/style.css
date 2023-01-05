@@ -10,26 +10,28 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: ligurino, sans-serif;
     background-color: white;
-    scroll-behavior: smooth;
     overflow-x: hidden;    
 }
 
-html {
-    position: relative;
-    overflow-x: hidden;
-}
-
 video {
-    width: 100%;
     object-fit: cover; 
-    overflow: hidden;
     z-index: 1;
     top:0;
     position: absolute;
     min-width: 650px;
+}
+
+.header-container {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
 
 #logo {
@@ -293,5 +295,9 @@ h2 {
 }
 
 video::-webkit-media-controls {
+    display: none;
+}
+
+video::-webkit-media-controls-play-button {
     display: none;
 }
