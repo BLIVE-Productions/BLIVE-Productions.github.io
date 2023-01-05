@@ -5,28 +5,10 @@
 }
 
 #portfolio__title {
-    color:#ff393b;
-    animation: 
-    shake 1.5s infinite, 
+  color: #ff393b;
+  animation:
+    shake 1.5s infinite,
     glow-red 1s ease-in-out infinite alternate;
-}
-
-:root {
-  --clr-primary-400: 219 29% 14%;
-  --clr-secondary-400: 219 29% 14%;
-  --clr-secondary-500: 219 29% 14%;
-  --clr-neutral-100: 220 14% 96%;
-  --clr-neutral-200: 220 14% 96%;
-  --clr-neutral-300: 220 14% 96%; 
-
-  --ff-primary: "Barlow Semi Condensed", sans-serif;
-
-  --fw-400: 500;
-  --fw-700: 600;
-
-  --fs-300: 0.75rem;
-  --fs-400: 0.9rem;
-  --fs-500: 1.25rem;
 }
 
 /* Box sizing rules */
@@ -116,16 +98,18 @@ h3 {
   gap: var(--gap, 1rem);
 }
 
-.flow > *:where(:not(:first-child)) {
+.flow>*:where(:not(:first-child)) {
   margin-top: var(--flow-spacer, 1em);
 }
 
 .bg-primary-400 {
   background: hsl(var(--clr-primary-400));
 }
+
 .bg-secondary-400 {
   background: hsl(var(--clr-secondary-400));
 }
+
 .bg-secondary-500 {
   background: hsl(var(--clr-secondary-500));
 }
@@ -141,9 +125,11 @@ h3 {
 .text-neutral-100 {
   color: hsl(var(--clr-neutral-100));
 }
+
 .text-secondary-400 {
   color: hsl(var(--clr-secondary-400));
 }
+
 .border-primary-400 {
   border: 2px solid #ff393b;
 }
@@ -154,11 +140,11 @@ h3 {
   gap: 1.5rem;
   grid-auto-columns: 1fr;
   grid-template-areas:
-   'one'
-   'two'
-   'three'
-   'four'
-   'five';
+    'one'
+    'two'
+    'three'
+    'four'
+    'five';
 
   padding-block: 2rem;
   width: min(95%, 80rem);
@@ -176,8 +162,8 @@ iframe {
   gap: 1.5rem;
   grid-auto-columns: 1fr;
   grid-template-areas:
-   'one'
-   'two';
+    'one'
+    'two';
 
   width: 100%;
   margin-inline: auto;
@@ -189,7 +175,7 @@ iframe {
   gap: 1.5rem;
   grid-auto-columns: 1fr;
   grid-template-areas:
-   'one';
+    'one';
 
   width: 100%;
   margin-inline: auto;
@@ -201,9 +187,9 @@ iframe {
   gap: 1.5rem;
   grid-auto-columns: 1fr;
   grid-template-areas:
-   'one'
-   'two'
-   'three';
+    'one'
+    'two'
+    'three';
 
   width: 100%;
   margin-inline: auto;
@@ -212,7 +198,7 @@ iframe {
 
 @media screen and (min-width: 33em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one"
       "two three"
       "five five"
@@ -235,22 +221,26 @@ iframe {
 .testimonial:nth-child(1) {
   grid-area: one;
 }
+
 .testimonial:nth-child(2) {
   grid-area: two;
 }
+
 .testimonial:nth-child(3) {
   grid-area: three;
 }
+
 .testimonial:nth-child(4) {
   grid-area: four;
 }
+
 .testimonial:nth-child(5) {
   grid-area: five;
 }
 
 @media screen and (min-width: 33em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one"
       "two three"
       "five five"
@@ -259,37 +249,37 @@ iframe {
 
   .portfolio-three-grid {
     grid-template-areas:
-    'one' 
-    'two' 
-    'three';
+      'one'
+      'two'
+      'three';
   }
 }
 
 @media screen and (min-width: 38em) {
   .testimonial-grid {
     grid-template-areas:
-     'one one'
-     'two five'
-     'three five'
-     'four four';
+      'one one'
+      'two five'
+      'three five'
+      'four four';
   }
 
   .portfolio-two-grid {
     grid-template-areas:
-    'one two';
+      'one two';
   }
 
   .portfolio-three-grid {
     grid-template-areas:
-    'one' 
-    'two' 
-    'three';
+      'one'
+      'two'
+      'three';
   }
 }
 
 @media screen and (min-width: 54em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one two"
       "five five five"
       "three four four";
@@ -297,22 +287,22 @@ iframe {
 
   .portfolio-three-grid {
     grid-template-areas:
-    'one two three';
+      'one two three';
   }
 }
 
 @media screen and (min-width: 75em) {
   .testimonial-grid {
-      grid-template-areas:
+    grid-template-areas:
       "one one two five"
       "three four four five";
   }
 
   .portfolio-three-grid {
     grid-template-areas:
-    'one' 
-    'two' 
-    'three';
+      'one'
+      'two'
+      'three';
   }
 }
 
@@ -340,7 +330,7 @@ iframe {
   opacity: 0.5;
 }
 
-.testimonial > p:first-of-type {
+.testimonial>p:first-of-type {
   font-size: var(--fs-400);
   line-height: 1.2;
 }

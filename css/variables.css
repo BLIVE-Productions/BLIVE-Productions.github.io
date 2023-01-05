@@ -1,11 +1,27 @@
-:root{
+:root {
     --background-dark: #2d3548;
-    --text-light: rgba(255,255,255,0.6);
-    --text-lighter: rgba(255,255,255,0.9);
+    --text-light: rgba(255, 255, 255, 0.6);
+    --text-lighter: rgba(255, 255, 255, 0.9);
     --spacing-s: 8px;
     --spacing-m: 16px;
     --spacing-l: 24px;
     --spacing-xl: 32px;
     --spacing-xxl: 64px;
     --width-container: 1200px;
+
+    --clr-primary-400: 219 29% 14%;
+    --clr-secondary-400: 219 29% 14%;
+    --clr-secondary-500: 219 29% 14%;
+    --clr-neutral-100: 220 14% 96%;
+    --clr-neutral-200: 220 14% 96%;
+    --clr-neutral-300: 220 14% 96%;
+
+    --ff-primary: "Barlow Semi Condensed", sans-serif;
+
+    --fw-400: 500;
+    --fw-700: 600;
+
+    --fs-300: 0.75rem;
+    --fs-400: 0.9rem;
+    --fs-500: 1.25rem;
 }

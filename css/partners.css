@@ -8,9 +8,9 @@
 
 #partners__title {
     padding-top: 300px;
-    color:white;
-    animation: 
-        shake 1.5s infinite, 
+    color: white;
+    animation:
+        shake 1.5s infinite,
         glow-white 1s ease-in-out infinite alternate;
 }
 
@@ -38,7 +38,7 @@
     transform: scale(1.1);
 }
 
-@media(max-width: 650px){
+@media(max-width: 650px) {
     #partners__info {
         font-size: 12px;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 500px) {
     .logos img {
         display: block;
         margin: 0 auto;
