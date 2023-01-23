@@ -75,11 +75,6 @@ video {
     font-family: ligurino;
     font-weight: 100;
     transition: 1s all;
-
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
     text-decoration: none;
 }
 
