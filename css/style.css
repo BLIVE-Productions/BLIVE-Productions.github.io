@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-video {
+#header-video {
     object-fit: cover;
     z-index: 1;
     top: 0;
