@@ -89,6 +89,12 @@
     background-size: cover;
   }
 
+  @media only screen and (max-width: 679px) {
+    .core-values {
+      background-image: url('../images/achtergrond_kernwaarden_mobile.png');
+    }
+}
+
   /* MEDIA QUERIES */
   @media(max-width: 900px) and (min-width: 680px) {
     .card__heading {

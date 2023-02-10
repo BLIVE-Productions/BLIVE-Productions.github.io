@@ -82,12 +82,9 @@
 
   <!-- HEADER -->
   <div class="header-container">
-    <video id="header-video" src="header_animation_4.mp4" autoplay muted loop playsinline></video>
+    <video id="header-video" src="videos/header_animation.mp4" autoplay muted loop playsinline></video>
     <div class="parent">
-      <img class="aspect-ratio" src="transparent_container_hack.png" alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
-      <div class="content-header">
-        <a href="#contact"><button class="button">NEEM NU CONTACT OP!</button></a>
-      </div>
+      <img class="aspect-ratio" src="images/transparent_container_hack.png" alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
     </div>
   </div>
 
@@ -946,9 +943,9 @@
     AOS.init();
     document.getElementById('header-video').play();
 
-    if (location.protocol !== "https:") {
-      location.protocol = "https:";
-    }
+    // if (location.protocol !== "https:") {
+    //   location.protocol = "https:";
+    // }
   </script>
 </body>
 

@@ -22,7 +22,6 @@ body {
 
 #header-video {
     object-fit: cover;
-    z-index: 1;
     top: 0;
     position: absolute;
     min-width: 650px;
@@ -95,7 +94,6 @@ body {
     position: absolute;
     width: 100%;
     z-index: 2;
-    background-color: white;
     margin-top: -5px;
     overflow-x: hidden;
 }
