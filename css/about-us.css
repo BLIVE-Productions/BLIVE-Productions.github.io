@@ -1,0 +1,44 @@
+.about-us {
+    height: 1080px;
+    background-image: url('../images/backgrounds/background_about_us.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -100px;
+}
+
+.info-grid {
+    display: grid;
+    gap: 5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      'one'
+      'two';
+  
+    width: 100%;
+    margin: 0 10% 0 10%;
+    margin-inline: auto;
+    padding-block: 2rem;
+}
+
+#info__title {
+    color: #ff393b;
+    animation:
+      glow-red 1s ease-in-out infinite alternate;
+}
+
+section p {
+    padding-top: 15px;
+}
+
+.about-us-section {
+    text-align: right;
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 38em) {
+    .info-grid {
+      grid-template-areas:
+        'one two';
+    }
+}
+

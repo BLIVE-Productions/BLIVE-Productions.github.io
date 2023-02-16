@@ -208,7 +208,7 @@ a {
 }
 
 .footer-copyright {
-    background-color: #ff585a;
+    background-color: #ff393b;
     color: #fff;
     padding: 15px 30px;
     text-align: center;
@@ -295,7 +295,7 @@ a {
 }
 
 .footer-img {
-    background-image: url('../images/achtergrond_footer.png');
+    background-image: url('../images/backgrounds/background_footer.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

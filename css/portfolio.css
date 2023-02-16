@@ -1,13 +1,13 @@
 .portfolio {
-  background-image: url("../images/portfolio achtergrond.png");
+  background-image: url("../images/backgrounds/background_portfolio.png");
   background-position: top;
   background-repeat: no-repeat;
 }
 
 #portfolio__title {
+  text-align: center;
   color: #ff393b;
   animation:
-    shake 1.5s infinite,
     glow-red 1s ease-in-out infinite alternate;
 }
 

@@ -141,15 +141,14 @@ body {
 }
 
 .title-striped {
-    font-family: 'filicudi-striped';
+    font-family: filicudi-solid, sans-serif;
 }
 
 .title-solid {
-    font-family: 'filicudi-solid';
+    font-family: filicudi-solid, sans-serif;
 }
 
 .title {
-    text-align: center;
     transition: all .5s ease;
     font-size: 70px;
 }
@@ -182,7 +181,7 @@ h2 {
 }
 
 .quote {
-    background-image: url('../images/test.png');
+    background-image: url('../images/backgrounds/background_quote.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -192,11 +191,18 @@ h2 {
 .quote-text {
     font-size: 42.5px;
     color: white;
+    font-family: ligurino;
 }
 
 .quote-underline {
     font-size: 20px;
     color: rgb(221, 221, 221);
+}
+
+p {
+    font-family: "forma-djr-micro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .quote-container {
@@ -207,10 +213,22 @@ h2 {
     position: relative;
 }
 
+.quote-container-text {
+    margin: 0 auto;
+    position: relative;
+}
+
 .border-left {
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 35px;
+}
+
+.border-left-reversed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     height: 35px;
 }
 
@@ -221,11 +239,25 @@ h2 {
     height: 35px;
 }
 
+.border-right-reversed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+}
+
 .border-top {
     width: 35px;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.border-top-reversed {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .border-bottom {
@@ -235,36 +267,75 @@ h2 {
     left: 0;
 }
 
+.border-bottom-reversed {
+    width: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .border-left-white {
-    border-left: 5px solid white;
+    border-left: 7.5px solid white;
 }
 
 .border-right-white {
-    border-right: 5px solid white;
+    border-right: 7.5px solid white;
 }
 
 .border-top-white {
-    border-top: 5px solid white;
+    border-top: 7.5px solid white;
 }
 
 .border-bottom-white {
-    border-bottom: 5px solid white;
+    border-bottom: 7.5px solid white;
 }
 
 .border-left-red {
     border-left: 7.5px solid #ff393b;
+    bottom: -20px;
+    left: -25px;
+}
+
+.border-left-red-reversed {
+    border-left: 7.5px solid #ff393b;
+    bottom: -20px;
+    right: -25px;
 }
 
 .border-right-red {
     border-right: 7.5px solid #ff393b;
+    top: -10px;
+    right: -15px;
+}
+
+.border-right-red-reversed {
+    border-right: 7.5px solid #ff393b;
+    top: -10px;
+    left: -15px;
 }
 
 .border-top-red {
     border-top: 7.5px solid #ff393b;
+    top: -10px;
+    right: -15px;
+}
+
+.border-top-red-reversed {
+    border-top: 7.5px solid #ff393b;
+    top: -10px;
+    left: -15px;
 }
 
 .border-bottom-red {
     border-bottom: 7.5px solid #ff393b;
+    bottom: -20px;
+    left: -25px;
+}
+
+.border-bottom-red-reversed {
+    border-bottom: 7.5px solid #ff393b;
+    bottom: -20px;
+    right: -25px;
 }
 
 .text-red {

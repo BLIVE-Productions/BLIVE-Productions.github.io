@@ -4,12 +4,13 @@
 }
 
 .contact-container {
-    background-image: url('../images/contact\ achtergrond.png');
+    background-image: url('../images/backgrounds/background_contact.png');
     background-repeat: no-repeat;
-    background-size: 130%;
+    /* background-size: 130%; */
     background-position: top;
 }
 
 .contact {
     padding: .75rem;
+    height: 650px;
 }
