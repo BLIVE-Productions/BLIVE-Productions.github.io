@@ -1,0 +1,119 @@
+.about-us {
+    margin-top: -100px;
+}
+
+.partner-logos {
+    background-image: url('../images/backgrounds/background_partners.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.partners-section {
+    margin: 0 0 0 10%;
+}
+
+.about-us-quote {
+    background-image: url('../images/backgrounds/background_about_us.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+}
+
+.info-grid {
+    display: grid;
+    gap: 5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+        'one two';
+  
+    width: 100%;
+    margin: 0 10% 0 10%;
+    margin-inline: auto;
+    padding-block: 2rem;
+}
+
+#info__title {
+    color: #ff393b;
+    animation:
+      glow-red 1s ease-in-out infinite alternate;
+}
+
+section p {
+    padding-top: 15px;
+}
+
+.about-us-section {
+    text-align: right;
+    margin-top: 150px;
+    margin: 150px 15% 0 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .info-grid {
+        grid-template-areas:
+            'one'
+            'two';
+        gap: 0;
+    }
+
+    .about-us {
+        margin: 100px 0 0 0;
+    }
+
+    .partners-section {
+        margin: 0 10% 50px 10%;
+    }
+
+    .about-us-section {
+        margin: 0 10% 0 10%;
+    }
+
+    .partner-logos {
+        width: 100%;
+        height: 450px;
+        background-image: url('../images/backgrounds/background_partners_tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-us-quote {
+        width: 100%;
+        height: 450px;
+        background-image: url('../images/backgrounds/background_about_us_tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .partner-logos {
+        background-image: url('../images/backgrounds/background_partners_mobile.png');
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .partner-logos {
+        background-image: url('../images/backgrounds/background_partners_mobile.png');
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-us {
+        margin: 0;
+    }
+    .about-us-quote {
+        background-image: url('../images/backgrounds/background_about_us_mobile.png');
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-us-quote {
+        background-image: url('../images/backgrounds/background_about_us_mobile_small.png');
+    }
+}
+
+
