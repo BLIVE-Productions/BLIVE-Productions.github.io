@@ -35,7 +35,7 @@
     padding-block: 2rem;
 }
 
-#info__title {
+.info__title {
     color: #ff393b;
     animation:
         glow-red 1s ease-in-out infinite alternate;
