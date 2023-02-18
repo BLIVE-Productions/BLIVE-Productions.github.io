@@ -41,7 +41,7 @@
         glow-red 1s ease-in-out infinite alternate;
 }
 
-section p {
+.info-grid p {
     padding-top: 15px;
     text-align: justify;
 }
