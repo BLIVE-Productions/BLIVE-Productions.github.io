@@ -76,22 +76,22 @@
   }
 
   #core-values__title {
+    text-align: center;
     padding-top: 50px;
     color: #ff393b;
     animation:
-      shake 1.5s infinite,
       glow-red 1s ease-in-out infinite alternate;
   }
 
   .core-values {
-    background-image: url('../images/achtergrond_kernwaarden.png');
+    background-image: url('../images/backgrounds/background_core_values.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   @media only screen and (max-width: 679px) {
     .core-values {
-      background-image: url('../images/achtergrond_kernwaarden_mobile.png');
+      background-image: url('../images/backgrounds/background_core_values_mobile.png');
     }
 }
 
