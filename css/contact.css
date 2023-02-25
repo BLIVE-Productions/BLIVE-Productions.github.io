@@ -5,7 +5,6 @@
 
 .contact-container {
     background-color: #ff393b;
-    padding: 25px;
 }
 
 .contact {
@@ -13,8 +12,7 @@
 }
 
 .contain {
-    background-color: #f3f4f6;
-    max-width: 1170px;
+    max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
@@ -22,7 +20,6 @@
 }
 
 div.form {
-    background-color: #f3f4f6;
     border-radius: 10px;
 }
 
@@ -43,11 +40,13 @@ div.form {
     display: block;
     width: 10%;
     padding-top: 10px;
-    border-bottom: 3px solid #374151;
+    border-bottom: 3px solid white;
 }
 
 .highlight-text {
-    color: #ff393b;
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
 }
 
 .hightlight-contact-info {
@@ -62,6 +61,8 @@ div.form {
 
 .email-info {
     margin-top: 20px;
+    font-size: 30px;
+    font-weight: 1000;
 }
 
 ::-webkit-input-placeholder {
@@ -83,7 +84,7 @@ div.form {
 textarea {
     width: 100%;
     border-radius: 5px;
-    background-color: #d1d5db;
+    background-color: rgb(247, 247, 247);
 }
 
 .wrapper>* {
@@ -93,7 +94,7 @@ textarea {
 @media (min-width: 700px) {
     .wrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 3fr 1fr;
     }
 
     .wrapper>* {
@@ -107,15 +108,11 @@ ul {
 }
 
 li {
-    color: #374151;
+    color: white;
 }
 
 .contacts {
-    color: #212d31;
-}
-
-.form {
-    background: #fff;
+    color: white;
 }
 
 form {
@@ -152,8 +149,8 @@ textarea {
 button,
 .submit-btn {
     background: transparent;
-    border: 1px solid #ff393b;
-    color: #ff393b;
+    border: 1px solid white;
+    color: white;
     border-radius: 15px;
     padding: 5px 20px;
     text-transform: uppercase;
@@ -163,7 +160,7 @@ button:hover,
 .submit-btn:hover,
 button:focus,
 .submit-btn:focus {
-    background: #ff393b;
+    background: white;
     outline: 0;
-    color: #f3f4f6;
+    color: #ff393b;
 }
