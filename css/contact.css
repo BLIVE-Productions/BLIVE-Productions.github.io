@@ -47,7 +47,7 @@ div.form {
 }
 
 .highlight-text {
-    color: #ec1c24;
+    color: #ff393b;
 }
 
 .hightlight-contact-info {
@@ -152,8 +152,8 @@ textarea {
 button,
 .submit-btn {
     background: transparent;
-    border: 1px solid #ec1c24;
-    color: #ec1c24;
+    border: 1px solid #ff393b;
+    color: #ff393b;
     border-radius: 15px;
     padding: 5px 20px;
     text-transform: uppercase;
@@ -163,7 +163,7 @@ button:hover,
 .submit-btn:hover,
 button:focus,
 .submit-btn:focus {
-    background: #ec1c24;
+    background: #ff393b;
     outline: 0;
     color: #f3f4f6;
 }
