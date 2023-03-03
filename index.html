@@ -69,6 +69,8 @@
   <!-- SCRIPT LIBRARIES -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -82,7 +84,8 @@
 
   <!-- HEADER -->
   <div class="header-container">
-    <video id="header-video" preload="metadata" src="videos/header_animation.mp4" poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
+    <video id="header-video" preload="metadata" src="videos/header_animation.mp4"
+      poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
     <div class="parent">
       <img class="aspect-ratio" src="images/backgrounds/background_transparent.png"
         alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
@@ -100,8 +103,8 @@
         <div class="card-grid" data-aos="fade-up" data-aos-delay="250">
 
           <a class="card" href="#">
-            <div class="card__background"
-              style="background-image: url(images/processed/kernwaarde_betrokken.jpg)"></div>
+            <div class="card__background" style="background-image: url(images/processed/kernwaarde_betrokken.jpg)">
+            </div>
             <div class="card__content">
               <p class="card__category">BETROKKEN</p>
               <h2 class="card__heading">Wij zijn <span class="text-animator">BETROKKEN</span> bij uw
@@ -113,8 +116,8 @@
           </a>
 
           <a class="card" href="#">
-            <div class="card__background"
-              style="background-image: url(images/processed/kernwaarde_enthausiast.jpg)"></div>
+            <div class="card__background" style="background-image: url(images/processed/kernwaarde_enthausiast.jpg)">
+            </div>
             <div class="card__content">
               <p class="card__category">ENTHOUSIAST</p>
               <h2 class="card__heading">Wij worden <span class="text-animator">ENTHOUSIAST</span> van
@@ -156,117 +159,25 @@
     </div>
 
     <!-- PORTFOLIO -->
-    <div class="portfolio" id="portfolio">
-      <h1 id="portfolio__title" class="title" data-aos="fade-up"><span class="title-striped">FILM PORTFOLIO</span>
+    <div class="portfolio">
+      <h1 class="title" id="portfolio__title" data-aos="fade-up"><span class="title-striped">FILM PORTFOLIO</span>
       </h1>
+      <div class="portfolio-text-effect">
+        <p id="text-effect-one">GKV DE ONTMOETING FRANCISCUS VLIETLAND & GASTHUIS IEDERIN NSV NAVIGATORS UPTMZ POSTMD OPLEIDINGEN</p>
+        <p id="text-effect-two">GKV DE ONTMOETING FRANCISCUS VLIETLAND & GASTHUIS IEDERIN NSV NAVIGATORS UPTMZ POSTMD OPLEIDINGEN</p>
+      </div>
 
-      <div class="testimonial-grid">
-        <div data-aos="fade-right" data-aos-delay="200"
-          class="testimonial grid-col-span-2 flow bg-primary-400 text-neutral-100">
-          <div class="flex">
-            <div>
-              <h2 class="name">Franciscus Gasthuis & Vlietland</h2>
-              <p class="position">Ziekenhuizen</p>
-            </div>
-          </div>
-          <p>
-            In 2021 zijn wij als BLIVE begonnen om de livestreams en opnames voor het Franciscus Gasthuis & Vlietland te
-            verzorgen. Het Franciscus wou graag bij verschillende evenementen meer publiek bereiken en vond de
-            flexibiliteit die livestreams bieden erg aantrekkelijk. Na de piek van de coronapandemie is BLIVE ook
-            opnames
-            gaan verzorgen voor het Franciscus. Deze opnames variëren van interviews en rondleidingen tot interne
-            bedrijfsvideo's die alleen werknemers te zien krijgen.
-          </p>
-          <div class="portfolio-two-grid">
-            <iframe src="https://www.youtube.com/embed/3TGsKfwKro8" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/BFC_Kn-nUSQ" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card-container">
+          <div class="portfolio-card">
+            <h2><mark>Francsicus <span class="stroke-text">Vlietland & Gasthuis</span></mark></h2>
+            <p>In 2021 zijn wij als BLIVE begonnen om de livestreams en opnames voor het Franciscus Gasthuis & Vlietland te verzorgen. Het Franciscus wou graag bij verschillende evenementen meer publiek bereiken en vond de flexibiliteit die livestreams bieden erg aantrekkelijk. Na de piek van de coronapandemie is BLIVE ook opnames gaan verzorgen voor het Franciscus. Deze opnames variëren van interviews en rondleidingen tot interne bedrijfsvideo's die alleen werknemers te zien krijgen.</p>
           </div>
         </div>
-        <div data-aos="fade-down" data-aos-delay="200" class="testimonial flow bg-secondary-400 text-neutral-100">
-          <div class="flex">
-            <div>
-              <h2 class="name">Happietaria Nijmegen</h2>
-              <p class="position">Pop-up Restaurant</p>
-            </div>
-          </div>
-          <p>
-            Happietaria is een pop-up restaurant dat elk jaar in verschillende steden een paar maanden open gaat. Het
-            restaurant
-            draait volledig op vrijwilligers en wordt bestuurd door studenten uit de omgeving. Alle inkomsten van dit
-            restaurant worden geschonken aan een goed doel. Voor happietaria hebben wij een promo video mogen maken,
-            zodat de
-            naamsbekendheid in de regio vergroot kon worden.
-          </p>
-          <div class="portfolio-one-grid">
-            <iframe src="https://www.youtube.com/embed/vxxtWzAReLo" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <div data-aos="fade-right" data-aos-delay="200" class="testimonial flow bg-gray-100 text-secondary-400">
-          <div class="flex">
-            <div>
-              <h2 class="name">Zelfstandige Projecten</h2>
-              <p class="position">Projecten Voor BLIVE</p>
-            </div>
-          </div>
-          <p>BLIVE is ook zelfstandig bezig om de kwaliteit van de diensten die ze leveren te verbeteren. Zo wordt er
-            ook gewerkt aan animaties.</p>
-          <div class="portfolio-one-grid">
-            <iframe src="https://www.youtube.com/embed/nZO1bczBXtE" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="200"
-          class="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
-          <div class="flex">
-            <div>
-              <h2 class="name">NSV Navigators</h2>
-              <p class="position">Navigators Studenten Verenigingen</p>
-            </div>
-          </div>
-          <p>
-            NSV Navigators is een organisatie die in 17 steden actief is. Voor NSV Navigators is een promotievideo
-            gemaakt voor een evenement wat zij elk jaar organiseren: Het NSV Songfestival. Aan dit Songfestival doen
-            alle verenigingen mee. In deze video worden de commissieleden en de locatie bekend gemaakt.</p>
-          <div class="portfolio-two-grid">
-            <iframe src="https://www.youtube.com/embed/Q5aLCwow8Co" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/C37l4eTeJqc" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-        <div data-aos="fade-left" data-aos-delay="200" class="testimonial flow bg-gray-100 text-secondary-400">
-          <div class="flex">
-            <div>
-              <h2 class="name">GKV de Ontmoeting</h2>
-              <p class="position">Gereformeerd Kerk vrijgemaakt Zaltbommel</p>
-            </div>
-          </div>
-          <p>
-            Voor de Gereformeerd vrijgemaakte Kerk de Ontmoeting in Zaltbommel hebben wij als BLIVE een aantal
-            interviews mogen opnemen die ondersteuning boden tijdens de preken. Deze interviews waren allemaal verbonden
-            aan de prekenserie "Choose Life" en werden gebruikt om de gemeenteleden alvast tot nadenken te zetten,
-            door middel van het tonen van de meningen van andere gemeenteleden.
-          </p>
-          <div class="portfolio-three-grid">
-            <iframe src="https://www.youtube.com/embed/EGT01rYZQXE" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/x1Edb_1zmO4" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/1yf6babapMQ" title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
+
+        <div class="video-container">
+          
         </div>
       </div>
 
@@ -364,7 +275,8 @@
             <h2 class="form-headline text-white">Stuur ons een bericht</h2>
             <form action="https://formspree.io/f/xdojwyav" method="POST" id="submit-form">
               <p>
-                <label for="voor-en-achternaam"><span class="uppercase text-sm text-white font-bold">* Naam</span></label>
+                <label for="voor-en-achternaam"><span class="uppercase text-sm text-white font-bold">*
+                    Naam</span></label>
                 <input id="voor-en-achternaam" name="voor-en-achternaam" class="form-input" type="text"
                   placeholder="voor- en achternaam" required>
               </p>
@@ -391,8 +303,10 @@
 
             <ul>
               <li>Geen fan van formulieren? Neem dan direct met ons contact op.</li>
-              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@blive.stream">info@blive.stream</a></li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a href="tel:+31620454074">+31 6 20454074</a></span>
+              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a
+                  href="mailto:info@blive.stream">info@blive.stream</a></li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a
+                    href="tel:+31620454074">+31 6 20454074</a></span>
               </li>
             </ul>
           </div>
@@ -473,7 +387,8 @@
           <div class="footer-content-column">
             <div class="footer-call-to-action">
               <p class="footer-call-to-action-title">Contact</p>
-              <p class="footer-call-to-action-description">Heb je een vraag? Neem dan vrijblijvend contact met ons op! Dit kan via de onderstaande gegevens.</p>
+              <p class="footer-call-to-action-description">Heb je een vraag? Neem dan vrijblijvend contact met ons op!
+                Dit kan via de onderstaande gegevens.</p>
             </div>
             <div class="footer-call-to-action">
               <p class="footer-call-to-action-title">Mail ons</p>
@@ -502,6 +417,9 @@
 
   <!-- SCRIPTS -->
   <script src="js/animated-titles.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>

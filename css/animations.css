@@ -63,3 +63,24 @@
         text-shadow: 0 0 5px white;
     }
 }
+
+@keyframes left-right {
+    from {
+        right:0%;
+    }
+
+    to {
+        right:-100%;
+    }
+}
+
+
+@keyframes right-left {
+    from {
+        left:0%;
+    }
+
+    to {
+        left:-100%;
+    }
+}

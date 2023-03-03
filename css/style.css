@@ -158,10 +158,6 @@ mark {
     color: white;
 }
 
-h2 {
-    color: #ff393b;
-}
-
 @media(max-width: 1000px) {
     .title {
         font-size: 50px;
