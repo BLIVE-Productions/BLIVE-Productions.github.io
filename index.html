@@ -522,15 +522,12 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     AOS.init();
-    let thumbnail = document.getElementById('thumbnail');
+
     let headerVideo = document.getElementById('header-video');
     headerVideo.play()
-      .then(() => { })
-      .catch((error) => {
-        console.log('kom ik hier');
-        thumbnail.src = 'images/processed/thumbnail_header_video.png';
-        headerVideo.style.display = 'none';
-      });
+      .then(() => {
+        headerVideo.style.display = 'block';
+       })
   </script>
 </body>
 
