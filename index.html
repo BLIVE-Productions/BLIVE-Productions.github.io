@@ -527,6 +527,7 @@
     headerVideo.play()
       .then(() => { })
       .catch((error) => {
+        console.log('kom ik hier');
         thumbnail.src = 'images/processed/thumbnail_header_video.png';
         headerVideo.style.display = 'none';
       });
