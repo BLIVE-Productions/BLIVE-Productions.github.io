@@ -96,7 +96,7 @@
     <video id="header-video" preload="metadata" src="videos/header_animation.mp4"
       poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
     <div class="parent">
-      <img class="aspect-ratio" src="images/backgrounds/background_transparent.png"
+      <img class="aspect-ratio" id="thumbnail" src="images/backgrounds/background_transparent.png"
         alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
     </div>
   </div>
@@ -522,7 +522,14 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     AOS.init();
-    document.getElementById('header-video').play();
+    let thumbnail = document.getElementById('thumbnail');
+    let headerVideo = document.getElementById('header-video');
+    headerVideo.play()
+      .then(() => { })
+      .catch((error) => {
+        humbnail.src = 'images/processed/thumbnail_header_video.png';
+        headerVideo.style.display = 'none';
+      });
   </script>
 </body>
 
