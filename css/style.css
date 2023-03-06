@@ -25,6 +25,8 @@ body {
     top: 0;
     position: absolute;
     min-width: 650px;
+    display: none;
+    z-index: 999;
 }
 
 .header-container {
@@ -360,4 +362,17 @@ p {
     .quote-text {
         font-size: 18px;
     }
+}
+
+.grecaptcha-badge {
+    z-index: 9999;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+*::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
 }

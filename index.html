@@ -12,6 +12,7 @@
 
     gtag('config', 'G-4CZ2388TZY');
   </script>
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -22,6 +23,16 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TQC26ZZ');</script>
   <!-- End Google Tag Manager -->
+
+  <!-- Recaptcha v3 -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45"></script>
+  <script>
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45', { action: 'submit' }).then(function (token) {
+        document.getElementById('g-recaptcha-response').value = token;
+      });
+    });
+  </script>
 
   <title>BLIVE - Uw Professionele Partner voor Opnames en Streams</title>
 
@@ -80,15 +91,15 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- FIXED -->
-  <a href="#"><img id="logo" src="images/logo/blive_logo_transparent_red.png" alt="Logo BLIVE"></a>
+  <img id="logo" src="images/logo/blive_logo_transparent_red.png" alt="Logo BLIVE">
 
   <!-- HEADER -->
   <div class="header-container">
     <video id="header-video" preload="metadata" src="videos/header_animation.mp4"
       poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
     <div class="parent">
-      <img class="aspect-ratio" src="images/backgrounds/background_transparent.png"
-        alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
+      <img class="aspect-ratio" id="thumbnail" src="images/processed/thumbnail_header_video.png"
+        alt="thubmnail header video">
     </div>
   </div>
 
@@ -290,11 +301,11 @@
                 <textarea id="bericht" name="bericht" cols="30" rows="7" placeholder="typ hier uw bericht..."
                   required></textarea>
               </p>
+              <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
               <p class="full-width">
                 <button type="submit"
-                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                  Verstuur bericht
-                </button>
+                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">Verstuur
+                  bericht</button>
               </p>
             </form>
           </div>
@@ -424,7 +435,12 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     AOS.init();
-    document.getElementById('header-video').play();
+
+    let headerVideo = document.getElementById('header-video');
+    headerVideo.play()
+      .then(() => {
+        headerVideo.style.display = 'block';
+       })
   </script>
 </body>
 
