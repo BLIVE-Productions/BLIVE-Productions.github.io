@@ -12,6 +12,7 @@
 
     gtag('config', 'G-4CZ2388TZY');
   </script>
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -22,6 +23,17 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TQC26ZZ');</script>
   <!-- End Google Tag Manager -->
+
+  <!-- Recaptcha v3 -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45"></script>
+  <script>
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45', { action: 'submit' }).then(function (token) {
+        console.info("got token: " + token);
+        document.getElementById('g-recaptcha-response').value = token;
+      });
+    });
+  </script>
 
   <title>BLIVE - Uw Professionele Partner voor Opnames en Streams</title>
 
@@ -380,12 +392,11 @@
                 <textarea id="bericht" name="bericht" cols="30" rows="7" placeholder="typ hier uw bericht..."
                   required></textarea>
               </p>
+              <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
               <p class="full-width">
                 <button type="submit"
-                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline g-recaptcha"
-                  data-sitekey="6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45" data-action='submit'>
-                  Verstuur bericht
-                </button>
+                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">Verstuur
+                  bericht</button>
               </p>
             </form>
           </div>
@@ -509,7 +520,6 @@
   <!-- SCRIPTS -->
   <script src="js/animated-titles.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     AOS.init();
