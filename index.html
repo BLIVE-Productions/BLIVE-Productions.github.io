@@ -82,7 +82,8 @@
 
   <!-- HEADER -->
   <div class="header-container">
-    <video id="header-video" preload="metadata" src="videos/header_animation.mp4" poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
+    <video id="header-video" preload="metadata" src="videos/header_animation.mp4"
+      poster="images/processed/thumbnail_header_video.png" autoplay muted loop playsinline></video>
     <div class="parent">
       <img class="aspect-ratio" src="images/backgrounds/background_transparent.png"
         alt="verborgen afbeelding om de aspect-ratio van de website te behouden">
@@ -100,8 +101,8 @@
         <div class="card-grid" data-aos="fade-up" data-aos-delay="250">
 
           <a class="card" href="#">
-            <div class="card__background"
-              style="background-image: url(images/processed/kernwaarde_betrokken.jpg)"></div>
+            <div class="card__background" style="background-image: url(images/processed/kernwaarde_betrokken.jpg)">
+            </div>
             <div class="card__content">
               <p class="card__category">BETROKKEN</p>
               <h2 class="card__heading">Wij zijn <span class="text-animator">BETROKKEN</span> bij uw
@@ -113,8 +114,8 @@
           </a>
 
           <a class="card" href="#">
-            <div class="card__background"
-              style="background-image: url(images/processed/kernwaarde_enthausiast.jpg)"></div>
+            <div class="card__background" style="background-image: url(images/processed/kernwaarde_enthausiast.jpg)">
+            </div>
             <div class="card__content">
               <p class="card__category">ENTHOUSIAST</p>
               <h2 class="card__heading">Wij worden <span class="text-animator">ENTHOUSIAST</span> van
@@ -364,7 +365,8 @@
             <h2 class="form-headline text-white">Stuur ons een bericht</h2>
             <form action="https://formspree.io/f/xdojwyav" method="POST" id="submit-form">
               <p>
-                <label for="voor-en-achternaam"><span class="uppercase text-sm text-white font-bold">* Naam</span></label>
+                <label for="voor-en-achternaam"><span class="uppercase text-sm text-white font-bold">*
+                    Naam</span></label>
                 <input id="voor-en-achternaam" name="voor-en-achternaam" class="form-input" type="text"
                   placeholder="voor- en achternaam" required>
               </p>
@@ -380,7 +382,8 @@
               </p>
               <p class="full-width">
                 <button type="submit"
-                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                  class="uppercase text-sm font-bold text-white tracking-wide bg-500 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline g-recaptcha"
+                  data-sitekey="6LefXNkkAAAAAHDZw8APnd1SIiAcNc8MLefgbA45" data-action='submit'>
                   Verstuur bericht
                 </button>
               </p>
@@ -391,8 +394,10 @@
 
             <ul>
               <li>Geen fan van formulieren? Neem dan direct met ons contact op.</li>
-              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@blive.stream">info@blive.stream</a></li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a href="tel:+31620454074">+31 6 20454074</a></span>
+              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i><a
+                  href="mailto:info@blive.stream">info@blive.stream</a></li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text"><a
+                    href="tel:+31620454074">+31 6 20454074</a></span>
               </li>
             </ul>
           </div>
@@ -473,7 +478,8 @@
           <div class="footer-content-column">
             <div class="footer-call-to-action">
               <p class="footer-call-to-action-title">Contact</p>
-              <p class="footer-call-to-action-description">Heb je een vraag? Neem dan vrijblijvend contact met ons op! Dit kan via de onderstaande gegevens.</p>
+              <p class="footer-call-to-action-description">Heb je een vraag? Neem dan vrijblijvend contact met ons op!
+                Dit kan via de onderstaande gegevens.</p>
             </div>
             <div class="footer-call-to-action">
               <p class="footer-call-to-action-title">Mail ons</p>
@@ -503,6 +509,7 @@
   <!-- SCRIPTS -->
   <script src="js/animated-titles.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script>
     AOS.init();
