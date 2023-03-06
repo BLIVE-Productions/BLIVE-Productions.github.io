@@ -93,7 +93,7 @@
     .core-values {
       background-image: url('../images/backgrounds/background_core_values_mobile.png');
     }
-}
+  }
 
   /* MEDIA QUERIES */
   @media(max-width: 900px) and (min-width: 680px) {

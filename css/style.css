@@ -369,3 +369,12 @@ p {
 .grecaptcha-badge {
     z-index: 9999;
 }
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+*::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+}
