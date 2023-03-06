@@ -365,3 +365,7 @@ p {
         font-size: 18px;
     }
 }
+
+.grecaptcha-badge {
+    z-index: 9999;
+}
