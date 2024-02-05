@@ -110,11 +110,11 @@
 
 #portfolio_preview_video {
     transition: 1s ease all;
-    opacity: 1;
+    filter: brightness(1);
 }
 
 .portfolio_preview:hover #portfolio_preview_video {
-    opacity: .25;
+    filter: brightness(.2);
 }
 
 .portfolio_preview:hover #kijk_hier_text {
