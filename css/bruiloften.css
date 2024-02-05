@@ -1,0 +1,247 @@
+@import url("https://use.typekit.net/czw7pcz.css");
+
+body {
+    font-size: 15px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    color: #181E1E;
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+}
+
+.content-75 {
+    margin: 5% auto 7.5% auto;
+    width: 75%;
+}
+
+.content-75 {
+    margin: 5% auto 7.5% auto;
+    width: 75%;
+}
+
+h1 {
+    font-size: 110px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 0;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 75px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.quote {
+    width: 70%;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.content-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    z-index: 99;
+}
+
+#left-links {
+    flex: 1 1 200px;
+}
+
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+#right-links {
+    margin-right: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: .250s ease;
+    color: #fafafa;
+}
+
+#logo {
+    width: 50px;
+}
+
+p {
+    font-size: 15px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.large-p {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+.quote-p {
+    font-size: 40px;
+    font-family: "museo-sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.1;
+}
+
+.contact-container {
+    color: #fafafa;
+}
+
+textarea {
+    border: none;
+}
+
+input {
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input::placeholder {
+    font-family: "museo-sans", sans-serif;
+}
+
+textarea::placeholder { 
+    font-family: "museo-sans", sans-serif;
+}
+
+label {
+    font-family: "museo-sans", sans-serif;
+    margin-bottom: 10px; 
+}
+
+.red-bg {
+    background-color: #ff393b;
+}
+
+.white-text {
+    color: #fafafa;
+}
+
+.contact-title {
+    max-width: 800px;
+    padding: 2em 2em;
+}
+
+.no-margin {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.content-60 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-top: 50px;
+}
+
+#header-video {
+    width: 100%;
+}
+
+.mt-100 {
+    margin-top: 50px;
+}
+
+.white-logo {
+    width: auto;
+    height: 60px;
+    filter: grayscale(0);
+    padding: 20px;
+}
+
+.companies {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.portfolio-intro {
+    height: 500px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.review_picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.faq {
+    color:#181E1E
+}
+
+.blog_titel {
+    font-size: 45px;
+    color: white;
+    font-style: normal;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+small {
+    font-size: 15px;
+}
+
+mark {
+    background-color: #181E1E;
+    color: white;
+}
+
+.blog-text {
+    transition: .5s ease all;
+    transform: scale(.9);
+
+}
+
+.blog:hover .blog-text {
+    transform: scale(1);
+}

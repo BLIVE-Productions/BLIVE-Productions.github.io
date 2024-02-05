@@ -1,10 +1,11 @@
 #mailto-underline {
     text-decoration: underline;
-    color: #ff393b;
+    color: #fafafa;
 }
 
 .contact-container {
     background-color: #ff393b;
+    padding-bottom: calc(50px + 2em);
 }
 
 .contact {
@@ -40,11 +41,11 @@ div.form {
     display: block;
     width: 10%;
     padding-top: 10px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #fafafa;
 }
 
 .highlight-text {
-    color: white;
+    color: #fafafa;
     font-size: 30px;
     font-weight: 1000;
 }
@@ -84,7 +85,8 @@ div.form {
 textarea {
     width: 100%;
     border-radius: 5px;
-    background-color: rgb(247, 247, 247);
+    background-color: #fafafa;
+    box-sizing: border-box;
 }
 
 .wrapper>* {
@@ -108,11 +110,11 @@ ul {
 }
 
 li {
-    color: white;
+    color: #fafafa;
 }
 
 .contacts {
-    color: white;
+    color: #fafafa;
 }
 
 form {
@@ -146,21 +148,30 @@ textarea {
     font-family: "forma-djr-micro", sans-serif !important;
 }
 
+.direct-contact {
+    line-break: anywhere;
+}
+
 button,
 .submit-btn {
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #fafafa;
+    color: #fafafa;
     border-radius: 15px;
     padding: 5px 20px;
     text-transform: uppercase;
+    transition: .250s ease;
 }
 
 button:hover,
 .submit-btn:hover,
 button:focus,
 .submit-btn:focus {
-    background: white;
+    background: #fafafa;
     outline: 0;
     color: #ff393b;
+}
+
+.direct-contact {
+    color: #fafafa;
 }
