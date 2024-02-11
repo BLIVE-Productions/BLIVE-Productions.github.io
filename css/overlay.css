@@ -176,6 +176,30 @@
     gap: 25px;
 }
 
+#header-video-small {
+    display: none;
+}
+#header-video {
+    display: block;
+}
+
+.header-text-overlay {
+    position: absolute;
+    top: 0;
+    color: #fafafa;
+    text-align: center;
+}
+
+.header-text-overlay h1 {
+    line-height: 1;
+    margin-bottom: 1.5%;
+}
+
+.header-text-overlay p {
+    margin-left: 15%;
+    font-size: 22.5px;
+}
+
 @media only screen and (max-width: 1250px) {
     .white-logo {height: 45px;}
     .companies {
@@ -199,6 +223,11 @@
     .blog_titel {font-size: 25px;}
     .mt-100 {margin-top: 50px;}
     .mb-100 {margin-bottom: 50px;}
+    #header-video-small {
+        display: block;
+        width: 100%;
+    }
+    #header-video {display: none;}
 }
 @media only screen and (max-width: 600px) {
     .white-logo {height: 25px;}

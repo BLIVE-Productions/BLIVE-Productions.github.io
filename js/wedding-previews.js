@@ -1,8 +1,5 @@
 //RUN
 const navItems = document.getElementById("right-links");
-
-
-//setInterval(zoomImages, 100);
 setInterval(hideNav, 500);
 
 function hideNav() {
